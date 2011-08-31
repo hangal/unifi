@@ -1,0 +1,32 @@
+<project name="unifi" default="all" basedir=".">
+
+    <target name="init">
+	<property name="srcDir" location="${basedir}/src/" />
+	<property name="classesDir" location="${basedir}/classes" />
+	<property name="debug" value="Yes" />
+	<property name="classpath" value="${basedir}/ext/bcel-5.2.jar:${basedir}/ext/jgrapht-jdk1.6.jar;${basedir}/ext/gson-1.5.jar"/>
+    </target>
+
+        <path id="lib.path">
+                <fileset dir="${basedir}/ext" includes="*.jar" />
+        </path>
+
+    <target name="clean" depends="init">
+	<delete dir="${classesDir}/unifi" />
+    </target>
+
+    <target name="all" depends="init">
+	<javac classpathref="lib.path" srcdir="${srcDir}" destdir="${classesDir}" debug="${debug}"
+               excludes="Lib/**"/>
+	<jar jarfile="${classesDir}/unifi.jar" basedir="${classesDir}"
+            excludes="**.jar"/>
+    </target>
+
+    <target name="test" depends="init">
+	<java classname="unifi.watch" fork="yes" failonerror="true"
+	    maxmemory="256m" dir="${basedir}">
+	    <arg line="test/test_mult.class"/>
+	</java>
+    </target>
+
+</project>
