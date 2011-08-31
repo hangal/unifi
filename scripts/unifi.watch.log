@@ -1,0 +1,9 @@
+Detailed log messages are being sent to file "unifi.watch.log"
+Analyzing all classes in jar file "/space/scratch/20060401/xray/classes/xray.jar"
+Jar entry META-INF/MANIFEST.MF: compressed,  (size = 106, compressed size = 94)
+Jar entry log.properties: compressed,  (size = 282, compressed size = 148)
+Jar entry org/apache/bcel/Constants.class: compressed,  (size = 22924, compressed size = 9582)
+1 methods
+Analyzing method org.apache.bcel.Constants.<clinit>()V
+Jar entry org/apache/bcel/ExceptionConstants$1.class: compressed,  (size = 1808, compressed size = 728)
+1 methods

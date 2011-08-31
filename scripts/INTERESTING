@@ -1,0 +1,23 @@
+
+- The following sets of units got merged!
+-----------------------
+  Field org.apache.catalina.core.ApplicationHttpRequest$AttributeNamesEnumerator.next, type java.lang.String Direct Attributes: ()
+  java.lang.String type object allocated at class org.apache.catalina.core.ApplicationHttpRequest, line 68, pos 2 (in method org.apache.catalina.core.ApplicationHttpRequest.<clinit>()V)
+  Return value of method ApplicationHttpRequest$AttributeNamesEnumerator.findNext()Ljava/lang/String;, type java.lang.String
+  Param name of method ApplicationHttpRequest.isSpecial(Ljava/lang/String;)Z, type java.lang.String Direct Attributes: ()
+  Return value of method ApplicationHttpRequest$AttributeNamesEnumerator.nextElement()Ljava/lang/Object;, type java.lang.Object
+  Param name of method ApplicationHttpRequest.getSpecial(Ljava/lang/String;)I, type java.lang.String Direct Attributes: ()
+  Param arg1 of method ServletRequest.getAttribute(Ljava/lang/String;)Ljava/lang/Object;, type java.lang.String Direct Attributes: ()
+  Param name of method ApplicationHttpRequest.getAttribute(Ljava/lang/String;)Ljava/lang/Object;, type java.lang.String Direct Attributes: ()
+-----------------------
+  Param condition of method AccessLogValve.setCondition(Ljava/lang/String;)V, type java.lang.String Direct Attributes: ()
+  Field org.apache.catalina.valves.AccessLogValve.condition, type java.lang.String Direct Attributes: ()
+  Return value of method AccessLogValve.getCondition()Ljava/lang/String;, type java.lang.String
+*************
+- 1 interesting unification event(s):
+Unification at class org.apache.catalina.valves.AccessLogValve, line 531, pos 42 between:
+  Param arg1 of method ServletRequest.getAttribute(Ljava/lang/String;)Ljava/lang/Object;, type java.lang.String Direct Attributes: ()
+  Field org.apache.catalina.valves.AccessLogValve.condition, type java.lang.String Direct Attributes: ()
+a.rep = Return value of method ApplicationHttpRequest$AttributeNamesEnumerator.findNext()Ljava/lang/String;, type java.lang.String
+b.rep=Return value of method ApplicationHttpRequest$AttributeNamesEnumerator.findNext()Ljava/lang/String;, type java.lang.String
+

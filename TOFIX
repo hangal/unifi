@@ -1,0 +1,54 @@
+
+-0.5. Are dimensionless quantities possible errors ?
+
+0.01 what's the deal with access$ methods. - these are hidden methods for accessing fields of outer class ?
+
+calls to <init> should not be resolved to superclass because init 
+interface is not necessarily the same.
+
+Covariant return types - we don't handle them right now.
+
+1. test mult/divide.
+2. arrays - find the right unification policy. 
+currently what is done is only downstream. i.e.
+b = a => a flows to b and *a to *b.
+but not a[] to b[].
+this seems ok for something based on unification.
+probably not a big deal.
+
+3. Suppose a polymorphic call with array parameters.
+Then the length of the array should not be merged.
+similarly arrayof/element of should not be merged.
+right now, they will show up as independent unif events.
+should we have dependent unification events ?
+think through considered_units policy, esp. for arrays.
+should we maintain arrays of primitive types or strings
+in considered_units ?
+
+another problem: poly method gets merged at meet or add 
+operation with a real unit and is the one chosen to propagate. 
+now real unit loses associations it would otherwise have made.
+(fixing by allowing real unit to propagate where possible, or
+propagate a phi node)
+
+----------------
+
+calls to libraries need to be understood.
+Consider pre-annotating Java libraries with units.
+Math.min/Math.max could be made polymorphic. in general Math functions
+to be modelled appropriately. 
+flags on types could be set appropriately. e.g. when magnitude v/s
+bit patterns v/s discrete values does or does not make sense.
+call to Collection.size(), String.length(), System.getCurrentMillis(),
+InputStream.read return magnitude. Socket.setTTL sets magnitude.
+
+----------------
+
+how to deal with finals ?
+
+----------------
+useful only when we propagate info to all types of units, not just fields.
+---------------
+
+Paper:
+make the point about annotating libraries.

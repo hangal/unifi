@@ -1,0 +1,4 @@
+#!/bin/csh -f
+perl run_unifi.pl -b /space/scratch/tomcat -p "" -t jakarta-tomcat-5.5.1,jakarta-tomcat-5.5.2,jakarta-tomcat-5.5.3,jakarta-tomcat-5.5.4,jakarta-tomcat-5.5.5,jakarta-tomcat-5.5.6,jakarta-tomcat-5.5.7,jakarta-tomcat-5.5.8,jakarta-tomcat-5.5.9,apache-tomcat-5.5.12,apache-tomcat-5.5.13,apache-tomcat-5.5.14,apache-tomcat-5.5.15 -j server/lib/catalina.jar -n 
+
+

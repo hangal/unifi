@@ -1,0 +1,11 @@
+use cases.
+
+1. Existing binaries, no build required, just a bunch of dirs and a set of jars in them.
+perl run_unifi.pl -j classes/foo.jar jar_to_check apache-tomcat-5-5-15 apache-tomcat-5-5-14 apache-tomcat 5-5-13 ... -jar 
+
+2. Existing project, get CVS snaps at different dates.
+perl run_unifi.pl -j classes/foo.jar jar_to_check -d 20060601,20060501,20060401,20060301,20060201,20060101 dir1 dir2 dir3
+
+3. Nightly diff on the same jars.
+
+(will need -prefix option preferably)

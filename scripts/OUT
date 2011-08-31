@@ -1,0 +1,31 @@
+jars to analyze = classes/xray.jar
+dates to get releases for : 20060601 20060501 20060401
+fetching and building tag 20060601 ... already built
+fetching and building tag 20060501 ... already built
+fetching and building tag 20060401 ... already built
+running unifi on tag 20060601 ... already rundiffing 20060601 and 20060501
+COMPUTE_REPS: reps.size = 20352
+COMPUTE_REPS: reps.size = 20352
+Units differences between /space/scratch/20060501/xray/20060501.units and /space/scratch/20060501/xray/20060501.units
+-----------------------------------------------------------------------------
+Units differences between /space/scratch/20060501/xray/20060501.units and /space/scratch/20060501/xray/20060501.units
+*****************************************************************************
+diffing 20060501 and 20060401
+COMPUTE_REPS: reps.size = 0
+COMPUTE_REPS: reps.size = 0
+Units differences between /space/scratch/20060401/xray/20060401.units and /space/scratch/20060401/xray/20060401.units
+Assertion failed!
+
+Exception in thread "main" java.lang.RuntimeException
+	at unifi.util.ASSERT(util.java:47)
+	at unifi.UnitCollection.get_reps(UnitCollection.java:36)
+	at unifi.diff.compare(diff.java:111)
+	at unifi.diff.main(diff.java:25)
+cat: /last.tag: No such file or directory
+Exception in thread "main" java.io.FileNotFoundException: /space/scratch/xray.units (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at unifi.diff.main(diff.java:8)
+sh: /last.tag: No such file or directory
+Unable to update /last.tag at run_unifi.pl line 155.

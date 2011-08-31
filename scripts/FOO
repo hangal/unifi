@@ -1,0 +1,5 @@
+jars to analyze = classes/xray.jar
+dates to get releases for : 20060501 20060401
+fetching and building tag 20060501 ... already built
+fetching and building tag 20060401 ... already built
+running unifi on tag 20060501 ... 

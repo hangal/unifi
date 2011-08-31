@@ -1,0 +1,3 @@
+#!/bin/csh -f
+perl run_unifi.pl -b /space/scratch/ -p xray -d 20060601,20060501,20060401,20060301 -j classes/xray.jar
+
