@@ -1,0 +1,151 @@
+
+Flow-insensitive, context-insensitive pointer analysis for Java.
+
+We will track program variables (declared or implicit) which can 
+hold a pointer and determine the set of object allocation sites 
+they can point to in any run of the program. This pointer analysis 
+answer can then be used to answer many other questions related 
+to program analysis.
+
+The problem is approached by setting up constraints based upon the 
+text of the program. Then we solve the constraints in some 
+manner to get the answer to our question. 
+
+Since the question is which allocation site a pointer *can*
+point to (not which sites a pointer *does*) a correct but
+useless solution is to say that every container points to every
+allocation site. Different solutions make various trade-offs between 
+precision and algorithm efficiency.
+
+What program entities should we use for statically representing pointers ?
+(Of course assuming the Java type of the entity is a pointer)
+
+there are several choices, but typically, for a context-insensitive
+analysis, these are:
+- each object allocation sites (the value returned by new contains a pointer 
+to the allocated object) is treated as one pointer.
+- each method parameter is treated as one pointer.
+- each method return value is treated as one pointer.
+- each local variable is treated as one pointer.
+- each field of an object is treated as one pointer. (*)
+(*) - see field-handling below.
+
+Context-insensitivity:
+Since each method parameter and return value is treated as a single
+pointer, there is no differentiation between two calls calling 
+the same method. This is called "context-insensitive" analysis
+and is prone to "pollution" across contexts. To be context 
+sensitive, we would have to track the results separately
+for each calling context.
+
+A p(A x) { return x; } 
+q1 = p (new A());  // allocation site 1
+q2 = p (new A());  // allocation site 2
+A context-insensitive analysis has only one pointer representing
+the parameter x and the return value of p(). x can be a pointer 
+to either allocation site 1 or 2. Since p() just returns x, 
+the return value of p() can be a pointer to site 1 or 2 . 
+Therefore q1 and q2 can be a pointer to both site 1 or 2.
+This is clearly imprecise because q1 can only point to site 1
+and q2 can only point to site 2. However, by restricting ourselves
+to only one pointer representing x (and the return value of p()), we 
+had no option but to merge all the possible values for x and return 
+value of p().
+
+Field-handling:
+There is a significant difference between Heintze and Whaley in
+the treatment of fields (though both are context insensitive.)
+Heintze (field-based): p.f is treated just like a global pointer variable C.f. 
+(where C is p's static type), and p is completely ignored. 
+Whaley (field-sensitive): handle the p.f reference using "load-nodes"
+which are field-reference (".f") nodes linked to all the concrete nodes
+p may point to. Whaley is strictly more accurate than Heintze,
+though it is unclear how much the extra precision buys in return
+for the extra complications it introduces in the analysis.
+
+Another difference is that Heintze is completely flow insensitive,
+flattening all assignments before any processing. Whaley tries to
+be "locally" flow-sensitive (in terms of local variables ?), which
+again is more accurate at the expense of runtime and implementation
+complexity. Flow-sensitivity allows some notion of strong updates,
+e.g.
+
+a = new A(); // site 1
+foo(a);
+a = new A(); // site 2;
+Then the parameter of foo() can point to either 1 or 2 with Heintze
+since statement order is completely thrown away. In Whaley's 
+flow-insensitive version, the parameter of foo() can point only
+to one, because the second assignment to a kills all the previous
+assignments of a. 
+note that in this case, a simple disambiguation (variable renaming)
+will achieve the same effect as Whaley.
+
+<Strong updates>
+
+Inclusion-based:
+A key requirement is to maintain inclusion constraints (a.k.a. "Andersen's
+analysis") in the interests of precision.
+e.g. the code:
+{
+  A p = new A(); // site 1
+  A q = new A(); // site 2;
+  if (<some condition>) {
+    p = q;   
+  }
+  // at this point p can point to site 1 or 2, but q can only
+  // point to site 2. value of q flows into p, but not vice-versa.
+}
+
+As we will see, due to indirection, the constraints that we set
+up for each program operation need to be solved iteratively. In the 
+worst case this can be a O(n^3) algorithm, because there could be 
+n pointers, each pointing to n concrete allocation sites.
+That is n^2 points-to relationships, and in the worst case
+discovering each relationship could require processing the 
+whole program, making the total cost O(n^3). In practice, we
+can make it perform much better using optimizations suggested
+by Heintze et al.
+
+Simple almost-linear time algorithms like Steensgard's throw
+away the accuracy due to maintaining inclusion (i.e. values
+of locations pointed to by p and q above can flow into 
+each other. therefore both p and q would be judged to flow
+into each other).
+
+here are the containers we will be interested in:
+
+Nc - set of concrete object allocation sites.
+Np - method parameters
+NRv - set of return value containers
+L - local variables
+G - global variables (Statics)
+F - load nodes which are fields of existing nodes. These nodes 
+are created on demand.
+
+intermediate containers on stack can come and go.
+
+All of the above nodes can be created statically after scanning 
+the program once, but nodes in F are created on demand.
+
+A a = new A();
+a.f = new A();
+a.f.f = new A();
+p = a.f.f;
+
+A a = new A();
+a.f = new A();
+a.f.f = new A();
+q = a.f.f.
+
+Our analysis should be able to tell that p and q cannot be pointing
+to the same node. It will be able to do this because it will
+maintain the following data structure:
+
+a <- site 1;
+  .f <- site 2;
+    .f <- site 3;
+
+p <---- site 6; <----- site 6;
+
+

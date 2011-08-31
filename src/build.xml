@@ -1,0 +1,19 @@
+<project name="unifi" default="all" basedir=".">
+
+    <target name="init">
+	<property name="srcDir" location="${basedir}/src" />
+	<property name="classesDir" location="${basedir}/classes" />
+	<property name="debug" value="Yes" />
+    </target>
+
+    <target name="clean" depends="init">
+        <delete dir="${classesDir}" />
+    </target>
+
+    <target name="all" depends="init">
+        <javac srcdir="${srcDir}/unifi" destdir="${classesDir}" debug="${debug}"/>
+		<jar jarfile="${classesDir}/unifi.jar" basedir="${classesDir}"
+            excludes="**.jar"/>
+    </target>
+
+</project>

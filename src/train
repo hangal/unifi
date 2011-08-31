@@ -1,0 +1,8 @@
+#!/bin/csh
+setenv CLASSPATH ~/diduce/classes/diduce.jar:$HOME/BCEL/BCEL.jar:$CLASSPATH\:/usr/local/NetBeans3.4/lib/openide.jar
+java -Ddiduce.cache=x diduce.watch classes/unifi.jar
+/bin/cp -f diduce-classes.jar x
+java -Ddiduce.write=diduce.inv diduce.run unifi.watch classes/unifi.jar
+#java diduce.run -i diduce.inv -o diduce.inv unifi.watch $HOME/diduce/classes/diduce.jar
+#java -Xbootclasspath/p:jndi.jar -cp jndi.jar:$CLASSPATH diduce.run -i diduce.inv -r -g $*
+

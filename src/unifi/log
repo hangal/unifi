@@ -1,0 +1,6052 @@
+? cvs-log
+? log
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/.exrc,v
+Working file: .exrc
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/.unifi_state.java.swp,v
+Working file: .unifi_state.java.swp
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2006/10/08 04:45:55;  author: hangal;  state: dead;  lines: +0 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/.vimrc,v
+Working file: .vimrc
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/.watch.java.swp,v
+Working file: .watch.java.swp
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2006/10/08 04:45:55;  author: hangal;  state: dead;  lines: +0 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/AllocUnit.java,v
+Working file: AllocUnit.java
+head: 1.5
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.4
+	oopsla: 1.4
+	OCT14: 1.2
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 6;	selected revisions: 6
+description:
+----------------------------
+revision 1.5
+date: 2008/07/31 21:51:15;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.4
+date: 2007/11/25 12:04:22;  author: hangal;  state: Exp;  lines: +5 -0
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.3
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +1 -1
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.2
+date: 2006/11/02 03:27:59;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/ArrayLengthUnit.java,v
+Working file: ArrayLengthUnit.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.2
+	oopsla: 1.2
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.3
+date: 2008/07/31 21:51:16;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.2
+date: 2007/10/15 11:01:45;  author: hangal;  state: Exp;  lines: +16 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attributes.java,v
+Working file: Attributes.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.3
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.3
+date: 2008/12/23 15:50:16;  author: hangal;  state: Exp;  lines: +3 -0
+minor comments
+----------------------------
+revision 1.2
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -1
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/BCP.java,v
+Working file: BCP.java
+head: 1.6
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.6
+	OOPSLA: 1.3
+	oopsla: 1.3
+	OCT14: 1.2
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 7;	selected revisions: 7
+description:
+----------------------------
+revision 1.6
+date: 2008/12/27 18:29:35;  author: hangal;  state: Exp;  lines: +6 -6
+fixed a bug - method sig was not being used, causing error with overloaded method names.
+----------------------------
+revision 1.5
+date: 2008/12/23 15:50:15;  author: hangal;  state: Exp;  lines: +1 -0
+minor comments
+----------------------------
+revision 1.4
+date: 2008/10/14 03:38:48;  author: hangal;  state: Exp;  lines: +2 -1
+fixed an error in BCP's hashcode which caused unifi to fail with enums
+----------------------------
+revision 1.3
+date: 2007/11/25 12:04:22;  author: hangal;  state: Exp;  lines: +3 -1
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.2
+date: 2006/11/10 04:28:05;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/CheckcastUnit.java,v
+Working file: CheckcastUnit.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.2
+	oopsla: 1.2
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.3
+date: 2008/07/31 21:51:16;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.2
+date: 2007/11/25 12:04:22;  author: hangal;  state: Exp;  lines: +23 -0
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/ConstantUnit.java,v
+Working file: ConstantUnit.java
+head: 1.7
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.5
+	oopsla: 1.6
+	OCT14: 1.3
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 8;	selected revisions: 8
+description:
+----------------------------
+revision 1.7
+date: 2008/07/31 21:51:16;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.6
+date: 2008/03/29 06:58:11;  author: hangal;  state: Exp;  lines: +7 -1
+fixed problem with blindly unifying both directions of compare operation like array compare or icmpeq,etc.
+now introducing a phi unit and adding edges from both sides of compare into phi unit.
+----------------------------
+revision 1.5
+date: 2007/12/24 12:50:08;  author: hangal;  state: Exp;  lines: +2 -0
+fixed support java.lang.Math
+----------------------------
+revision 1.4
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +1 -1
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.3
+date: 2006/11/13 13:52:06;  author: hangal;  state: Exp;  lines: +20 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/17 20:55:19;  author: hangal;  state: Exp;  lines: +4 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/Def.java,v
+Working file: Def.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2008/08/01 05:18:31;  author: hangal;  state: dead;  lines: +0 -0
+moved files to packages rd and diff
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/DiffRecord.java,v
+Working file: DiffRecord.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.1
+	oopsla: 1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2008/08/01 05:18:31;  author: hangal;  state: dead;  lines: +0 -0
+moved files to packages rd and diff
+----------------------------
+revision 1.1
+date: 2008/03/15 22:44:13;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/DimensionLessUnitDiffRecord.java,v
+Working file: DimensionLessUnitDiffRecord.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.1
+	oopsla: 1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2008/08/01 05:18:31;  author: hangal;  state: dead;  lines: +0 -0
+moved files to packages rd and diff
+----------------------------
+revision 1.2
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +2 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.1
+date: 2007/12/02 13:21:03;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/DisplayNames.java,v
+Working file: DisplayNames.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2009/01/02 21:51:28;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2009/01/02 21:47:14;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2008/12/28 16:06:36;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2008/12/28 16:05:43;  author: hangal;  state: Exp;
+user friendly names now called display names
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/ElementUnit.java,v
+Working file: ElementUnit.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.1
+	oopsla: 1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2008/07/31 21:51:16;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.1
+date: 2008/03/15 22:48:21;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/FieldResolver.java,v
+Working file: FieldResolver.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.1
+	oopsla: 1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2009/01/02 21:47:14;  author: hangal;  state: dead;  lines: +0 -0
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +2 -3
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.1
+date: 2007/11/20 14:13:24;  author: hangal;  state: Exp;
+added field resolution.
+minor fixes for a zero error.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/FieldUnit.java,v
+Working file: FieldUnit.java
+head: 1.6
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.5
+	oopsla: 1.5
+	OCT14: 1.3
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 7;	selected revisions: 7
+description:
+----------------------------
+revision 1.6
+date: 2008/07/31 21:51:16;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.5
+date: 2007/12/23 12:59:58;  author: hangal;  state: Exp;  lines: +1 -3
+bug fixes related to compound constraints.
+----------------------------
+revision 1.4
+date: 2007/11/01 03:27:23;  author: hangal;  state: Exp;  lines: +9 -1
+added units for fields which are never referenced.
+----------------------------
+revision 1.3
+date: 2006/11/10 21:32:48;  author: hangal;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/19 20:39:09;  author: hangal;  state: Exp;  lines: +6 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/FindPolymorphicMethods.java,v
+Working file: FindPolymorphicMethods.java
+head: 1.25
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.25
+	OOPSLA: 1.16
+	oopsla: 1.18
+keyword substitution: kv
+total revisions: 25;	selected revisions: 25
+description:
+----------------------------
+revision 1.25
+date: 2009/01/02 21:51:28;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.24
+date: 2009/01/02 21:47:14;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.23
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +3 -3
+fixed eclipse warnings
+----------------------------
+revision 1.22
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +4 -4
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.21
+date: 2008/08/13 21:37:58;  author: hangal;  state: Exp;  lines: +1 -0
+intermediate checkin for backup. build may be broken.
+----------------------------
+revision 1.20
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +10 -4
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.19
+date: 2008/03/30 15:06:59;  author: hangal;  state: Exp;  lines: +6 -0
+fixed some bugs
+----------------------------
+revision 1.18
+date: 2008/03/29 07:11:24;  author: hangal;  state: Exp;  lines: +4 -4
+minor fix in reporting.
+----------------------------
+revision 1.17
+date: 2008/03/29 06:58:11;  author: hangal;  state: Exp;  lines: +186 -65
+fixed problem with blindly unifying both directions of compare operation like array compare or icmpeq,etc.
+now introducing a phi unit and adding edges from both sides of compare into phi unit.
+----------------------------
+revision 1.16
+date: 2008/03/20 10:58:31;  author: hangal;  state: Exp;  lines: +2 -0
+some changes for oopsla paper - better reporting, cleaned up some unification rules.
+----------------------------
+revision 1.15
+date: 2008/03/15 22:44:13;  author: hangal;  state: Exp;  lines: +4 -4
+*** empty log message ***
+----------------------------
+revision 1.14
+date: 2007/12/21 15:04:38;  author: hangal;  state: Exp;  lines: +12 -1
+some fixes before ecoop paper.
+----------------------------
+revision 1.13
+date: 2007/12/05 19:54:23;  author: hangal;  state: Exp;  lines: +19 -14
+added depends_on in unif events.
+----------------------------
+revision 1.12
+date: 2007/11/25 12:04:22;  author: hangal;  state: Exp;  lines: +5 -0
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.11
+date: 2007/11/21 13:08:02;  author: hangal;  state: Exp;  lines: +29 -43
+resurrected div/mult.
+----------------------------
+revision 1.10
+date: 2007/11/20 14:13:24;  author: hangal;  state: Exp;  lines: +19 -6
+added field resolution.
+minor fixes for a zero error.
+----------------------------
+revision 1.9
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +4 -4
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.8
+date: 2007/11/01 03:27:23;  author: hangal;  state: Exp;  lines: +21 -0
+added units for fields which are never referenced.
+----------------------------
+revision 1.7
+date: 2007/10/29 03:50:54;  author: hangal;  state: Exp;  lines: +15 -2
+bug fixes for hashcode/equals of local var unit. small fix in multianewarray.
+----------------------------
+revision 1.6
+date: 2007/10/27 16:31:56;  author: hangal;  state: Exp;  lines: +3 -9
+convered to linked versions of sets and maps
+----------------------------
+revision 1.5
+date: 2007/10/23 23:11:34;  author: hangal;  state: Exp;  lines: +5 -1
+some fixes.
+----------------------------
+revision 1.4
+date: 2007/10/23 11:47:15;  author: hangal;  state: Exp;  lines: +21 -7
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2007/10/20 02:16:31;  author: hangal;  state: Exp;  lines: +138 -18
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2007/10/15 22:59:06;  author: hangal;  state: Exp;  lines: +81 -12
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2007/10/15 11:01:45;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/FormulaDiffRecord.java,v
+Working file: FormulaDiffRecord.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.1
+	oopsla: 1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2008/08/01 05:18:31;  author: hangal;  state: dead;  lines: +0 -0
+moved files to packages rd and diff
+----------------------------
+revision 1.2
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.1
+date: 2007/12/02 13:21:03;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/Graph.java,v
+Working file: Graph.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.2
+	oopsla: 1.2
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 5;	selected revisions: 5
+description:
+----------------------------
+revision 1.4
+date: 2008/08/01 18:43:33;  author: hangal;  state: dead;  lines: +0 -0
+created graph package.
+----------------------------
+revision 1.3
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -1
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.2
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +1 -1
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/LocalVarUnit.java,v
+Working file: LocalVarUnit.java
+head: 1.8
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.7
+	oopsla: 1.7
+	OCT14: 1.3
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 9;	selected revisions: 9
+description:
+----------------------------
+revision 1.8
+date: 2008/07/31 21:51:16;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.7
+date: 2007/12/21 15:04:38;  author: hangal;  state: Exp;  lines: +3 -2
+some fixes before ecoop paper.
+----------------------------
+revision 1.6
+date: 2007/11/25 12:04:22;  author: hangal;  state: Exp;  lines: +5 -0
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.5
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +1 -4
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.4
+date: 2007/10/29 03:50:54;  author: hangal;  state: Exp;  lines: +26 -0
+bug fixes for hashcode/equals of local var unit. small fix in multianewarray.
+----------------------------
+revision 1.3
+date: 2006/10/19 03:27:42;  author: chaitanya;  state: Exp;  lines: +1 -2
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/18 19:14:13;  author: chaitanya;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/LogicalLVMap.java,v
+Working file: LogicalLVMap.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.2
+	oopsla: 1.2
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.3
+date: 2008/08/01 18:40:35;  author: hangal;  state: dead;  lines: +0 -0
+moved a couple of classes.
+----------------------------
+revision 1.2
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +2 -2
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/MethodDepTracker.java,v
+Working file: MethodDepTracker.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2008/08/19 22:27:31;  author: hangal;  state: dead;  lines: +0 -0
+intermediate point.
+----------------------------
+revision 1.1
+date: 2008/08/19 14:16:39;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/MethodInvokeTracker.java,v
+Working file: MethodInvokeTracker.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.3
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2008/12/27 18:30:31;  author: hangal;  state: Exp;  lines: +2 -2
+linked hashmap/set
+----------------------------
+revision 1.2
+date: 2008/12/23 15:50:15;  author: hangal;  state: Exp;  lines: +39 -37
+minor comments
+----------------------------
+revision 1.1
+date: 2008/08/19 22:27:31;  author: hangal;  state: Exp;
+intermediate point.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/MethodParamUnit.java,v
+Working file: MethodParamUnit.java
+head: 1.9
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.7
+	oopsla: 1.8
+	OCT14: 1.2
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 10;	selected revisions: 10
+description:
+----------------------------
+revision 1.9
+date: 2008/07/31 21:51:16;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.8
+date: 2008/03/29 06:58:11;  author: hangal;  state: Exp;  lines: +2 -0
+fixed problem with blindly unifying both directions of compare operation like array compare or icmpeq,etc.
+now introducing a phi unit and adding edges from both sides of compare into phi unit.
+----------------------------
+revision 1.7
+date: 2008/03/20 10:58:31;  author: hangal;  state: Exp;  lines: +6 -1
+some changes for oopsla paper - better reporting, cleaned up some unification rules.
+----------------------------
+revision 1.6
+date: 2008/03/15 22:44:13;  author: hangal;  state: Exp;  lines: +9 -0
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +1 -1
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.4
+date: 2007/10/26 17:23:01;  author: hangal;  state: Exp;  lines: +0 -3
+some cleanups of logging.
+----------------------------
+revision 1.3
+date: 2007/10/25 11:31:49;  author: hangal;  state: Exp;  lines: +1 -0
+re-engineered OO impl.
+----------------------------
+revision 1.2
+date: 2006/11/11 09:27:17;  author: hangal;  state: Exp;  lines: +9 -0
+fixed bug in longs/doubles.
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/MethodResolver.java,v
+Working file: MethodResolver.java
+head: 1.21
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.14
+	oopsla: 1.15
+	OCT14: 1.4
+keyword substitution: kv
+total revisions: 21;	selected revisions: 21
+description:
+----------------------------
+revision 1.21
+date: 2009/02/11 09:09:59;  author: hangal;  state: dead;  lines: +0 -0
+*** empty log message ***
+----------------------------
+revision 1.20
+date: 2008/12/29 15:19:29;  author: hangal;  state: Exp;  lines: +75 -70
+some cleanup, no functional change.
+----------------------------
+revision 1.19
+date: 2008/12/23 15:50:15;  author: hangal;  state: Exp;  lines: +1 -1
+minor comments
+----------------------------
+revision 1.18
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +1 -1
+fixed eclipse warnings
+----------------------------
+revision 1.17
+date: 2008/08/01 18:40:35;  author: hangal;  state: Exp;  lines: +5 -7
+moved a couple of classes.
+----------------------------
+revision 1.16
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +0 -1
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.15
+date: 2008/03/29 06:58:11;  author: hangal;  state: Exp;  lines: +11 -0
+fixed problem with blindly unifying both directions of compare operation like array compare or icmpeq,etc.
+now introducing a phi unit and adding edges from both sides of compare into phi unit.
+----------------------------
+revision 1.14
+date: 2008/03/20 10:58:31;  author: hangal;  state: Exp;  lines: +13 -5
+some changes for oopsla paper - better reporting, cleaned up some unification rules.
+----------------------------
+revision 1.13
+date: 2007/11/27 13:16:01;  author: hangal;  state: Exp;  lines: +4 -1
+fixed bug in private method calls
+----------------------------
+revision 1.12
+date: 2007/11/27 12:11:36;  author: hangal;  state: Exp;  lines: +5 -3
+fix for clinits
+----------------------------
+revision 1.11
+date: 2007/11/27 11:54:34;  author: hangal;  state: Exp;  lines: +18 -9
+fixed static method and constructor resolution
+----------------------------
+revision 1.10
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +2 -22
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.9
+date: 2007/10/27 14:02:27;  author: hangal;  state: Exp;  lines: +51 -88
+somewhat stable version after method resolver rework.
+----------------------------
+revision 1.8
+date: 2007/10/26 17:23:01;  author: hangal;  state: Exp;  lines: +52 -10
+some cleanups of logging.
+----------------------------
+revision 1.7
+date: 2007/10/25 11:31:49;  author: hangal;  state: Exp;  lines: +125 -138
+re-engineered OO impl.
+----------------------------
+revision 1.6
+date: 2007/10/24 00:03:37;  author: hangal;  state: Exp;  lines: +22 -5
+cleaned up logging.
+----------------------------
+revision 1.5
+date: 2007/10/23 18:40:12;  author: hangal;  state: Exp;  lines: +62 -27
+initial version of OO features.
+----------------------------
+revision 1.4
+date: 2006/11/06 02:50:56;  author: hangal;  state: Exp;  lines: +0 -4
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/11/06 02:46:02;  author: hangal;  state: Exp;  lines: +8 -3
+fixes for method resolver.
+----------------------------
+revision 1.2
+date: 2006/11/06 02:35:17;  author: hangal;  state: Exp;  lines: +23 -12
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/11/05 23:40:33;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/MethodUnits.java,v
+Working file: MethodUnits.java
+head: 1.27
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.27
+	OOPSLA: 1.14
+	oopsla: 1.15
+	OCT14: 1.6
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 28;	selected revisions: 28
+description:
+----------------------------
+revision 1.27
+date: 2009/01/02 21:51:28;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.26
+date: 2009/01/02 21:47:14;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.25
+date: 2009/01/02 21:36:59;  author: hangal;  state: Exp;  lines: +307 -300
+*** empty log message ***
+----------------------------
+revision 1.24
+date: 2008/12/27 18:31:25;  author: hangal;  state: Exp;  lines: +1 -1
+converted to linked hashset/map
+----------------------------
+revision 1.23
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +4 -4
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.22
+date: 2008/08/20 08:00:11;  author: hangal;  state: Exp;  lines: +5 -0
+compile clean, drivers ready.
+----------------------------
+revision 1.21
+date: 2008/08/20 06:46:27;  author: hangal;  state: Exp;  lines: +9 -5
+compile clean.
+----------------------------
+revision 1.20
+date: 2008/08/19 22:27:31;  author: hangal;  state: Exp;  lines: +24 -11
+intermediate point.
+----------------------------
+revision 1.19
+date: 2008/08/13 21:37:58;  author: hangal;  state: Exp;  lines: +12 -3
+intermediate checkin for backup. build may be broken.
+----------------------------
+revision 1.18
+date: 2008/08/08 18:23:49;  author: hangal;  state: Exp;  lines: +76 -73
+fixed a bug in local var type checking (too strict - added certainty)
+----------------------------
+revision 1.17
+date: 2008/08/01 18:40:35;  author: hangal;  state: Exp;  lines: +1 -0
+moved a couple of classes.
+----------------------------
+revision 1.16
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +5 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.15
+date: 2008/03/29 06:58:11;  author: hangal;  state: Exp;  lines: +14 -0
+fixed problem with blindly unifying both directions of compare operation like array compare or icmpeq,etc.
+now introducing a phi unit and adding edges from both sides of compare into phi unit.
+----------------------------
+revision 1.14
+date: 2008/03/20 10:58:31;  author: hangal;  state: Exp;  lines: +33 -8
+some changes for oopsla paper - better reporting, cleaned up some unification rules.
+----------------------------
+revision 1.13
+date: 2007/12/21 15:04:38;  author: hangal;  state: Exp;  lines: +18 -2
+some fixes before ecoop paper.
+----------------------------
+revision 1.12
+date: 2007/11/25 12:04:22;  author: hangal;  state: Exp;  lines: +4 -2
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.11
+date: 2007/11/01 03:27:23;  author: hangal;  state: Exp;  lines: +2 -0
+added units for fields which are never referenced.
+----------------------------
+revision 1.10
+date: 2007/10/29 03:50:55;  author: hangal;  state: Exp;  lines: +3 -4
+bug fixes for hashcode/equals of local var unit. small fix in multianewarray.
+----------------------------
+revision 1.9
+date: 2007/10/25 11:31:49;  author: hangal;  state: Exp;  lines: +11 -1
+re-engineered OO impl.
+----------------------------
+revision 1.8
+date: 2007/10/24 00:03:37;  author: hangal;  state: Exp;  lines: +24 -13
+cleaned up logging.
+----------------------------
+revision 1.7
+date: 2007/10/23 18:40:12;  author: hangal;  state: Exp;  lines: +2 -0
+initial version of OO features.
+----------------------------
+revision 1.6
+date: 2006/11/11 09:27:17;  author: hangal;  state: Exp;  lines: +7 -1
+fixed bug in longs/doubles.
+----------------------------
+revision 1.5
+date: 2006/11/10 04:28:05;  author: hangal;  state: Exp;  lines: +0 -7
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/11/06 02:46:02;  author: hangal;  state: Exp;  lines: +4 -1
+fixes for method resolver.
+----------------------------
+revision 1.3
+date: 2006/11/05 23:40:18;  author: hangal;  state: Exp;  lines: +6 -17
+implemented methodresolver
+----------------------------
+revision 1.2
+date: 2006/10/14 02:12:32;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/MultOperator.java,v
+Working file: MultOperator.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.2
+	oopsla: 1.2
+	OCT14: 1.2
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 5;	selected revisions: 5
+description:
+----------------------------
+revision 1.4
+date: 2008/08/01 18:59:50;  author: hangal;  state: dead;  lines: +0 -0
+refactor only.
+----------------------------
+revision 1.3
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +3 -3
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.2
+date: 2006/11/10 04:28:05;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/MultUnit.java,v
+Working file: MultUnit.java
+head: 1.9
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.8
+	oopsla: 1.8
+	OCT14: 1.6
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 10;	selected revisions: 10
+description:
+----------------------------
+revision 1.9
+date: 2008/07/31 21:51:16;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.8
+date: 2008/03/20 10:58:31;  author: hangal;  state: Exp;  lines: +2 -2
+some changes for oopsla paper - better reporting, cleaned up some unification rules.
+----------------------------
+revision 1.7
+date: 2007/12/24 12:50:08;  author: hangal;  state: Exp;  lines: +58 -17
+fixed support java.lang.Math
+----------------------------
+revision 1.6
+date: 2006/11/10 21:32:48;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/11/08 21:19:50;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/11/05 23:40:18;  author: hangal;  state: Exp;  lines: +9 -2
+implemented methodresolver
+----------------------------
+revision 1.3
+date: 2006/11/02 03:27:59;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/19 20:39:09;  author: hangal;  state: Exp;  lines: +19 -2
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/NameSelector.java,v
+Working file: NameSelector.java
+head: 1.5
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.3
+	oopsla: 1.3
+	OCT14: 1.3
+keyword substitution: kv
+total revisions: 5;	selected revisions: 5
+description:
+----------------------------
+revision 1.5
+date: 2008/08/01 19:30:23;  author: hangal;  state: dead;  lines: +0 -0
+refactor: created drivers package.
+----------------------------
+revision 1.4
+date: 2008/08/01 18:59:50;  author: hangal;  state: Exp;  lines: +2 -1
+refactor only.
+----------------------------
+revision 1.3
+date: 2006/11/04 05:46:19;  author: hangal;  state: Exp;  lines: +6 -5
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/19 03:27:42;  author: chaitanya;  state: Exp;  lines: +13 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/17 17:38:26;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/Node.java,v
+Working file: Node.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.3
+	oopsla: 1.3
+	OCT14: 1.2
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 5;	selected revisions: 5
+description:
+----------------------------
+revision 1.4
+date: 2008/08/01 18:43:33;  author: hangal;  state: dead;  lines: +0 -0
+created graph package.
+----------------------------
+revision 1.3
+date: 2007/10/27 16:31:56;  author: hangal;  state: Exp;  lines: +2 -2
+convered to linked versions of sets and maps
+----------------------------
+revision 1.2
+date: 2006/11/10 04:28:05;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Pair.java,v
+Working file: Pair.java
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2008/12/29 14:58:37;  author: hangal;  state: Exp;
+util Pair class
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/PhiUnit.java,v
+Working file: PhiUnit.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.1
+	oopsla: 1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2008/07/31 21:51:16;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.1
+date: 2008/03/15 22:44:13;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/RDBasicBlock.java,v
+Working file: RDBasicBlock.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.2
+	oopsla: 1.2
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 5;	selected revisions: 5
+description:
+----------------------------
+revision 1.4
+date: 2008/08/01 05:18:31;  author: hangal;  state: dead;  lines: +0 -0
+moved files to packages rd and diff
+----------------------------
+revision 1.3
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -2
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.2
+date: 2007/12/02 11:12:33;  author: hangal;  state: Exp;  lines: +2 -2
+fixed a bug in meet operator not flowing in both directions.
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/RD_DF_algorithm.java,v
+Working file: RD_DF_algorithm.java
+head: 1.6
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.4
+	oopsla: 1.4
+	OCT14: 1.2
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 7;	selected revisions: 7
+description:
+----------------------------
+revision 1.6
+date: 2008/08/01 05:18:31;  author: hangal;  state: dead;  lines: +0 -0
+moved files to packages rd and diff
+----------------------------
+revision 1.5
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +0 -3
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.4
+date: 2007/12/02 11:12:33;  author: hangal;  state: Exp;  lines: +0 -3
+fixed a bug in meet operator not flowing in both directions.
+----------------------------
+revision 1.3
+date: 2007/10/26 17:23:01;  author: hangal;  state: Exp;  lines: +18 -18
+some cleanups of logging.
+----------------------------
+revision 1.2
+date: 2006/10/31 19:21:43;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/RD_state.java,v
+Working file: RD_state.java
+head: 1.9
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.7
+	oopsla: 1.7
+	OCT14: 1.6
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 10;	selected revisions: 10
+description:
+----------------------------
+revision 1.9
+date: 2008/08/01 05:18:31;  author: hangal;  state: dead;  lines: +0 -0
+moved files to packages rd and diff
+----------------------------
+revision 1.8
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -1
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.7
+date: 2007/12/02 11:12:33;  author: hangal;  state: Exp;  lines: +1 -1
+fixed a bug in meet operator not flowing in both directions.
+----------------------------
+revision 1.6
+date: 2006/10/16 03:45:36;  author: hangal;  state: Exp;  lines: +53 -34
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/10/15 17:14:39;  author: hangal;  state: Exp;  lines: +16 -3
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/10/15 15:18:00;  author: hangal;  state: Exp;  lines: +47 -13
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/15 08:07:30;  author: hangal;  state: Exp;  lines: +4 -2
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/15 06:02:16;  author: hangal;  state: Exp;  lines: +30 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/ReturnValueUnit.java,v
+Working file: ReturnValueUnit.java
+head: 1.7
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.5
+	oopsla: 1.6
+	OCT14: 1.3
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 8;	selected revisions: 8
+description:
+----------------------------
+revision 1.7
+date: 2008/07/31 21:51:16;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.6
+date: 2008/03/29 06:58:11;  author: hangal;  state: Exp;  lines: +2 -2
+fixed problem with blindly unifying both directions of compare operation like array compare or icmpeq,etc.
+now introducing a phi unit and adding edges from both sides of compare into phi unit.
+----------------------------
+revision 1.5
+date: 2008/03/20 10:58:31;  author: hangal;  state: Exp;  lines: +6 -1
+some changes for oopsla paper - better reporting, cleaned up some unification rules.
+----------------------------
+revision 1.4
+date: 2008/03/15 22:44:13;  author: hangal;  state: Exp;  lines: +6 -0
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/11/11 19:28:52;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/11/10 21:32:48;  author: hangal;  state: Exp;  lines: +5 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/StableComparator.java,v
+Working file: StableComparator.java
+head: 1.6
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.4
+	oopsla: 1.4
+	OCT14: 1.1
+keyword substitution: kv
+total revisions: 6;	selected revisions: 6
+description:
+----------------------------
+revision 1.6
+date: 2008/08/01 19:24:00;  author: hangal;  state: dead;  lines: +0 -0
+refactor: StableComparator
+----------------------------
+revision 1.5
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +2 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.4
+date: 2007/12/23 12:59:58;  author: hangal;  state: Exp;  lines: +10 -8
+bug fixes related to compound constraints.
+----------------------------
+revision 1.3
+date: 2007/11/21 13:08:02;  author: hangal;  state: Exp;  lines: +5 -2
+resurrected div/mult.
+----------------------------
+revision 1.2
+date: 2007/10/15 11:01:45;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2007/10/06 22:03:36;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Stats.java,v
+Working file: Stats.java
+head: 1.7
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.6
+keyword substitution: kv
+total revisions: 7;	selected revisions: 7
+description:
+----------------------------
+revision 1.7
+date: 2009/05/17 07:08:44;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2008/12/29 21:56:07;  author: hangal;  state: Exp;  lines: +1 -0
+minor import change due to refactoring.
+----------------------------
+revision 1.5
+date: 2008/08/27 02:33:47;  author: hangal;  state: Exp;  lines: +1 -1
+minor updates.
+----------------------------
+revision 1.4
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +2 -2
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.3
+date: 2008/08/01 19:30:23;  author: hangal;  state: Exp;  lines: +1 -1
+refactor: created drivers package.
+----------------------------
+revision 1.2
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +4 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.1
+date: 2008/06/06 00:10:51;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/UnificationEvent.java,v
+Working file: UnificationEvent.java
+head: 1.13
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.13
+	OOPSLA: 1.8
+	oopsla: 1.8
+	OCT14: 1.6
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 14;	selected revisions: 14
+description:
+----------------------------
+revision 1.13
+date: 2009/01/02 21:51:28;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2009/01/02 21:47:14;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +3 -3
+fixed eclipse warnings
+----------------------------
+revision 1.10
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +7 -7
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.9
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +2 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.8
+date: 2007/12/05 19:54:23;  author: hangal;  state: Exp;  lines: +11 -0
+added depends_on in unif events.
+----------------------------
+revision 1.7
+date: 2007/10/27 16:31:56;  author: hangal;  state: Exp;  lines: +1 -1
+convered to linked versions of sets and maps
+----------------------------
+revision 1.6
+date: 2006/11/10 21:32:49;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/10/31 19:21:43;  author: hangal;  state: Exp;  lines: +6 -5
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/10/17 18:55:41;  author: hangal;  state: Exp;  lines: +27 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/16 03:45:36;  author: hangal;  state: Exp;  lines: +0 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/16 01:05:21;  author: hangal;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/UnionFindObject.java,v
+Working file: UnionFindObject.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+	OOPSLA: 1.3
+	oopsla: 1.3
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 5;	selected revisions: 5
+description:
+----------------------------
+revision 1.4
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -1
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.3
+date: 2007/11/20 14:13:24;  author: hangal;  state: Exp;  lines: +6 -0
+added field resolution.
+minor fixes for a zero error.
+----------------------------
+revision 1.2
+date: 2007/10/20 02:16:32;  author: hangal;  state: Exp;  lines: +5 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/Unit.java,v
+Working file: Unit.java
+head: 1.26
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.23
+	oopsla: 1.23
+	OCT14: 1.11
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 27;	selected revisions: 27
+description:
+----------------------------
+revision 1.26
+date: 2008/07/31 21:51:16;  author: hangal;  state: dead;  lines: +0 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.25
+date: 2008/03/30 17:55:21;  author: hangal;  state: Exp;  lines: +14 -2
+minor adjustment to scoring of different kinds of units.
+----------------------------
+revision 1.24
+date: 2008/03/30 15:06:59;  author: hangal;  state: Exp;  lines: +4 -0
+fixed some bugs
+----------------------------
+revision 1.23
+date: 2007/12/29 16:57:56;  author: hangal;  state: Exp;  lines: +29 -11
+some bug fixes for length_unit and array_of
+----------------------------
+revision 1.22
+date: 2007/12/23 12:59:58;  author: hangal;  state: Exp;  lines: +65 -21
+bug fixes related to compound constraints.
+----------------------------
+revision 1.21
+date: 2007/12/21 15:04:38;  author: hangal;  state: Exp;  lines: +2 -2
+some fixes before ecoop paper.
+----------------------------
+revision 1.20
+date: 2007/12/05 19:54:23;  author: hangal;  state: Exp;  lines: +8 -43
+added depends_on in unif events.
+----------------------------
+revision 1.19
+date: 2007/11/25 12:04:22;  author: hangal;  state: Exp;  lines: +26 -28
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.18
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +2 -2
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.17
+date: 2007/11/01 03:27:23;  author: hangal;  state: Exp;  lines: +7 -18
+added units for fields which are never referenced.
+----------------------------
+revision 1.16
+date: 2007/10/29 03:50:55;  author: hangal;  state: Exp;  lines: +17 -2
+bug fixes for hashcode/equals of local var unit. small fix in multianewarray.
+----------------------------
+revision 1.15
+date: 2007/10/23 23:11:34;  author: hangal;  state: Exp;  lines: +1 -1
+some fixes.
+----------------------------
+revision 1.14
+date: 2007/10/23 11:47:15;  author: hangal;  state: Exp;  lines: +15 -13
+*** empty log message ***
+----------------------------
+revision 1.13
+date: 2007/10/20 02:16:32;  author: hangal;  state: Exp;  lines: +13 -6
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2007/10/15 11:01:45;  author: hangal;  state: Exp;  lines: +18 -4
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2006/11/10 03:31:22;  author: hangal;  state: Exp;  lines: +3 -0
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2006/11/08 21:19:50;  author: hangal;  state: Exp;  lines: +8 -1
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2006/11/05 23:40:18;  author: hangal;  state: Exp;  lines: +3 -4
+implemented methodresolver
+----------------------------
+revision 1.8
+date: 2006/11/02 03:27:59;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2006/10/31 19:21:43;  author: hangal;  state: Exp;  lines: +20 -0
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2006/10/19 20:39:09;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/10/19 03:27:42;  author: chaitanya;  state: Exp;  lines: +6 -0
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/10/17 21:37:24;  author: hangal;  state: Exp;  lines: +32 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/17 18:55:41;  author: hangal;  state: Exp;  lines: +19 -0
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/08 04:45:55;  author: hangal;  state: Exp;  lines: +0 -3
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/UnitCollection.java,v
+Working file: UnitCollection.java
+head: 1.46
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.45
+	OOPSLA: 1.29
+	oopsla: 1.29
+	OCT14: 1.13
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 47;	selected revisions: 47
+description:
+----------------------------
+revision 1.46
+date: 2009/06/19 19:54:30;  author: hangal;  state: Exp;  lines: +0 -176
+*** empty log message ***
+----------------------------
+revision 1.45
+date: 2009/01/02 21:51:28;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.44
+date: 2009/01/02 21:47:14;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.43
+date: 2009/01/02 21:36:05;  author: hangal;  state: Exp;  lines: +28 -27
+*** empty log message ***
+----------------------------
+revision 1.42
+date: 2008/12/24 22:35:18;  author: hangal;  state: Exp;  lines: +46 -14
+some progress with user friendly names
+----------------------------
+revision 1.41
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +6 -6
+fixed eclipse warnings
+----------------------------
+revision 1.40
+date: 2008/10/16 03:15:25;  author: hangal;  state: Exp;  lines: +34 -10
+removing clone units from printing prefuse xml
+----------------------------
+revision 1.39
+date: 2008/10/13 10:59:17;  author: hangal;  state: Exp;  lines: +56 -0
+added prefuse support
+----------------------------
+revision 1.38
+date: 2008/09/12 19:00:31;  author: hangal;  state: Exp;  lines: +54 -74
+latest version.
+----------------------------
+revision 1.37
+date: 2008/08/28 20:53:26;  author: hangal;  state: Exp;  lines: +92 -36
+fixes to avoid clone units being reported in diff records.
+----------------------------
+revision 1.36
+date: 2008/08/27 20:37:51;  author: hangal;  state: Exp;  lines: +36 -2
+updates to diff.
+----------------------------
+revision 1.35
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +7 -7
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.34
+date: 2008/08/01 18:59:50;  author: hangal;  state: Exp;  lines: +1 -1
+refactor only.
+----------------------------
+revision 1.33
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +7 -4
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.32
+date: 2008/03/30 17:55:21;  author: hangal;  state: Exp;  lines: +3 -3
+minor adjustment to scoring of different kinds of units.
+----------------------------
+revision 1.31
+date: 2008/03/30 16:22:56;  author: hangal;  state: Exp;  lines: +11 -10
+*** empty log message ***
+----------------------------
+revision 1.30
+date: 2008/03/30 15:06:59;  author: hangal;  state: Exp;  lines: +43 -2
+fixed some bugs
+----------------------------
+revision 1.29
+date: 2008/03/20 10:58:31;  author: hangal;  state: Exp;  lines: +44 -5
+some changes for oopsla paper - better reporting, cleaned up some unification rules.
+----------------------------
+revision 1.28
+date: 2007/12/29 16:57:56;  author: hangal;  state: Exp;  lines: +1 -0
+some bug fixes for length_unit and array_of
+----------------------------
+revision 1.27
+date: 2007/12/24 12:50:08;  author: hangal;  state: Exp;  lines: +2 -3
+fixed support java.lang.Math
+----------------------------
+revision 1.26
+date: 2007/12/23 12:59:58;  author: hangal;  state: Exp;  lines: +9 -63
+bug fixes related to compound constraints.
+----------------------------
+revision 1.25
+date: 2007/12/05 19:54:23;  author: hangal;  state: Exp;  lines: +45 -4
+added depends_on in unif events.
+----------------------------
+revision 1.24
+date: 2007/12/02 11:12:33;  author: hangal;  state: Exp;  lines: +1 -1
+fixed a bug in meet operator not flowing in both directions.
+----------------------------
+revision 1.23
+date: 2007/11/25 12:04:22;  author: hangal;  state: Exp;  lines: +89 -10
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.22
+date: 2007/11/21 13:08:02;  author: hangal;  state: Exp;  lines: +14 -13
+resurrected div/mult.
+----------------------------
+revision 1.21
+date: 2007/11/20 14:13:24;  author: hangal;  state: Exp;  lines: +20 -5
+added field resolution.
+minor fixes for a zero error.
+----------------------------
+revision 1.20
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +19 -10
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.19
+date: 2007/10/29 03:50:55;  author: hangal;  state: Exp;  lines: +11 -1
+bug fixes for hashcode/equals of local var unit. small fix in multianewarray.
+----------------------------
+revision 1.18
+date: 2007/10/27 16:31:56;  author: hangal;  state: Exp;  lines: +7 -16
+convered to linked versions of sets and maps
+----------------------------
+revision 1.17
+date: 2007/10/23 23:11:34;  author: hangal;  state: Exp;  lines: +6 -4
+some fixes.
+----------------------------
+revision 1.16
+date: 2007/10/23 11:47:15;  author: hangal;  state: Exp;  lines: +49 -18
+*** empty log message ***
+----------------------------
+revision 1.15
+date: 2007/10/20 02:16:32;  author: hangal;  state: Exp;  lines: +8 -2
+*** empty log message ***
+----------------------------
+revision 1.14
+date: 2007/10/15 11:01:45;  author: hangal;  state: Exp;  lines: +19 -0
+*** empty log message ***
+----------------------------
+revision 1.13
+date: 2006/11/10 21:32:49;  author: hangal;  state: Exp;  lines: +130 -20
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2006/11/10 04:28:05;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2006/11/10 03:31:22;  author: hangal;  state: Exp;  lines: +9 -3
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2006/11/09 22:10:18;  author: hangal;  state: Exp;  lines: +22 -2
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2006/11/08 21:19:50;  author: hangal;  state: Exp;  lines: +42 -7
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2006/11/07 05:03:23;  author: hangal;  state: Exp;  lines: +13 -1
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2006/11/05 23:40:19;  author: hangal;  state: Exp;  lines: +26 -26
+implemented methodresolver
+----------------------------
+revision 1.6
+date: 2006/11/02 03:27:59;  author: hangal;  state: Exp;  lines: +23 -2
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/10/31 19:21:43;  author: hangal;  state: Exp;  lines: +3 -3
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/10/19 03:27:42;  author: chaitanya;  state: Exp;  lines: +26 -0
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/17 21:37:24;  author: hangal;  state: Exp;  lines: +13 -4
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/17 21:10:26;  author: hangal;  state: Exp;  lines: +5 -5
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/UnitDiffRecord.java,v
+Working file: UnitDiffRecord.java
+head: 1.20
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.17
+	oopsla: 1.17
+	OCT14: 1.11
+keyword substitution: kv
+total revisions: 20;	selected revisions: 20
+description:
+----------------------------
+revision 1.20
+date: 2008/08/01 18:40:35;  author: hangal;  state: dead;  lines: +0 -0
+moved a couple of classes.
+----------------------------
+revision 1.19
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;  lines: +1 -0
+moved files to packages rd and diff
+----------------------------
+revision 1.18
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +2 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.17
+date: 2007/12/05 19:54:23;  author: hangal;  state: Exp;  lines: +46 -3
+added depends_on in unif events.
+----------------------------
+revision 1.16
+date: 2007/12/02 13:21:03;  author: hangal;  state: Exp;  lines: +5 -2
+*** empty log message ***
+----------------------------
+revision 1.15
+date: 2007/11/25 12:04:22;  author: hangal;  state: Exp;  lines: +44 -31
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.14
+date: 2007/11/21 13:08:02;  author: hangal;  state: Exp;  lines: +1 -0
+resurrected div/mult.
+----------------------------
+revision 1.13
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +1 -1
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.12
+date: 2007/11/01 03:27:23;  author: hangal;  state: Exp;  lines: +4 -0
+added units for fields which are never referenced.
+----------------------------
+revision 1.11
+date: 2006/11/07 05:03:23;  author: hangal;  state: Exp;  lines: +3 -0
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2006/10/18 04:57:03;  author: chaitanya;  state: Exp;  lines: +10 -6
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2006/10/18 04:35:35;  author: chaitanya;  state: Exp;  lines: +9 -7
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2006/10/18 04:15:41;  author: chaitanya;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2006/10/18 04:08:42;  author: hangal;  state: Exp;  lines: +26 -13
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2006/10/17 21:37:24;  author: hangal;  state: Exp;  lines: +7 -4
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/10/17 21:10:26;  author: hangal;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/10/17 20:55:19;  author: hangal;  state: Exp;  lines: +24 -14
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/17 20:12:56;  author: hangal;  state: Exp;  lines: +33 -9
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/17 18:55:41;  author: hangal;  state: Exp;  lines: +9 -4
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/17 18:24:41;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/Use.java,v
+Working file: Use.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2008/08/01 05:18:31;  author: hangal;  state: dead;  lines: +0 -0
+moved files to packages rd and diff
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/UserFriendlyNames.java,v
+Working file: UserFriendlyNames.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2009/01/02 21:47:14;  author: hangal;  state: dead;  lines: +0 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2008/12/24 22:35:18;  author: hangal;  state: Exp;
+some progress with user friendly names
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/design.java.doc,v
+Working file: design.java.doc
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2008/12/23 15:50:15;  author: hangal;  state: dead;  lines: +0 -0
+minor comments
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/df.txt,v
+Working file: df.txt
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2006/10/17 02:13:13;  author: hangal;  state: dead;  lines: +0 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/diff.java,v
+Working file: diff.java
+head: 1.33
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.30
+	oopsla: 1.30
+	OCT14: 1.17
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 34;	selected revisions: 34
+description:
+----------------------------
+revision 1.33
+date: 2008/08/01 05:18:31;  author: hangal;  state: dead;  lines: +0 -0
+moved files to packages rd and diff
+----------------------------
+revision 1.32
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.31
+date: 2008/03/30 16:22:56;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.30
+date: 2007/12/29 06:02:49;  author: hangal;  state: Exp;  lines: +1 -1
+bug fixes.
+----------------------------
+revision 1.29
+date: 2007/12/23 12:59:58;  author: hangal;  state: Exp;  lines: +6 -0
+bug fixes related to compound constraints.
+----------------------------
+revision 1.28
+date: 2007/12/21 15:04:38;  author: hangal;  state: Exp;  lines: +54 -0
+some fixes before ecoop paper.
+----------------------------
+revision 1.27
+date: 2007/12/05 19:54:23;  author: hangal;  state: Exp;  lines: +2 -1
+added depends_on in unif events.
+----------------------------
+revision 1.26
+date: 2007/12/04 11:10:23;  author: hangal;  state: Exp;  lines: +13 -8
+*** empty log message ***
+----------------------------
+revision 1.25
+date: 2007/12/02 13:21:03;  author: hangal;  state: Exp;  lines: +13 -17
+*** empty log message ***
+----------------------------
+revision 1.24
+date: 2007/12/02 11:12:33;  author: hangal;  state: Exp;  lines: +3 -0
+fixed a bug in meet operator not flowing in both directions.
+----------------------------
+revision 1.23
+date: 2007/11/25 12:04:23;  author: hangal;  state: Exp;  lines: +16 -6
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.22
+date: 2007/11/21 13:08:02;  author: hangal;  state: Exp;  lines: +4 -4
+resurrected div/mult.
+----------------------------
+revision 1.21
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +7 -5
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.20
+date: 2007/10/27 16:31:57;  author: hangal;  state: Exp;  lines: +1 -1
+convered to linked versions of sets and maps
+----------------------------
+revision 1.19
+date: 2007/10/23 23:11:34;  author: hangal;  state: Exp;  lines: +4 -2
+some fixes.
+----------------------------
+revision 1.18
+date: 2007/10/15 11:01:45;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.17
+date: 2006/11/13 13:52:06;  author: hangal;  state: Exp;  lines: +17 -5
+*** empty log message ***
+----------------------------
+revision 1.16
+date: 2006/11/11 19:28:52;  author: hangal;  state: Exp;  lines: +16 -4
+*** empty log message ***
+----------------------------
+revision 1.15
+date: 2006/11/11 09:27:17;  author: hangal;  state: Exp;  lines: +24 -4
+fixed bug in longs/doubles.
+----------------------------
+revision 1.14
+date: 2006/11/10 21:32:49;  author: hangal;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.13
+date: 2006/11/09 22:10:18;  author: hangal;  state: Exp;  lines: +60 -10
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2006/11/08 21:19:50;  author: hangal;  state: Exp;  lines: +47 -21
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2006/11/07 05:03:23;  author: hangal;  state: Exp;  lines: +20 -1
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2006/11/05 23:40:19;  author: hangal;  state: Exp;  lines: +2 -2
+implemented methodresolver
+----------------------------
+revision 1.9
+date: 2006/11/02 18:44:01;  author: hangal;  state: Exp;  lines: +23 -5
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2006/10/18 04:57:03;  author: chaitanya;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2006/10/18 04:35:35;  author: chaitanya;  state: Exp;  lines: +6 -0
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2006/10/18 04:08:42;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/10/17 20:55:19;  author: hangal;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/10/17 20:12:56;  author: hangal;  state: Exp;  lines: +0 -22
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/17 03:50:39;  author: hangal;  state: Exp;  lines: +10 -74
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/17 02:13:13;  author: hangal;  state: Exp;  lines: +16 -11
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/pointers.doc,v
+Working file: pointers.doc
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/query.java,v
+Working file: query.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.1
+	oopsla: 1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2008/08/01 19:30:23;  author: hangal;  state: dead;  lines: +0 -0
+refactor: created drivers package.
+----------------------------
+revision 1.1
+date: 2007/11/25 12:04:23;  author: hangal;  state: Exp;
+added feature to print paths in unit diff records.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/show.java,v
+Working file: show.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2008/08/01 05:18:31;  author: hangal;  state: dead;  lines: +0 -0
+moved files to packages rd and diff
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/unifi_DF_algorithm.java,v
+Working file: unifi_DF_algorithm.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 5;	selected revisions: 5
+description:
+----------------------------
+revision 1.4
+date: 2008/08/01 19:30:23;  author: hangal;  state: Exp;  lines: +1 -1
+refactor: created drivers package.
+----------------------------
+revision 1.3
+date: 2008/08/01 18:40:35;  author: hangal;  state: Exp;  lines: +1 -0
+moved a couple of classes.
+----------------------------
+revision 1.2
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -1
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/unifi_state.java,v
+Working file: unifi_state.java
+head: 1.52
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.52
+	OOPSLA: 1.34
+	oopsla: 1.35
+	OCT14: 1.14
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 53;	selected revisions: 53
+description:
+----------------------------
+revision 1.52
+date: 2009/02/11 11:25:49;  author: hangal;  state: Exp;  lines: +14 -6
+fixes for context-sensitive compound units.
+----------------------------
+revision 1.51
+date: 2009/01/02 21:51:28;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.50
+date: 2009/01/02 21:47:14;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.49
+date: 2009/01/02 21:36:14;  author: hangal;  state: Exp;  lines: +48 -36
+*** empty log message ***
+----------------------------
+revision 1.48
+date: 2008/12/18 12:09:37;  author: hangal;  state: Exp;  lines: +74 -73
+fixed eclipse warnings
+----------------------------
+revision 1.47
+date: 2008/10/14 03:38:48;  author: hangal;  state: Exp;  lines: +3 -1
+fixed an error in BCP's hashcode which caused unifi to fail with enums
+----------------------------
+revision 1.46
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +34 -34
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.45
+date: 2008/08/20 08:00:11;  author: hangal;  state: Exp;  lines: +12 -6
+compile clean, drivers ready.
+----------------------------
+revision 1.44
+date: 2008/08/20 07:02:41;  author: hangal;  state: Exp;  lines: +4 -2
+disabled method summaries for now.
+----------------------------
+revision 1.43
+date: 2008/08/20 06:46:27;  author: hangal;  state: Exp;  lines: +3 -2
+compile clean.
+----------------------------
+revision 1.42
+date: 2008/08/19 22:27:31;  author: hangal;  state: Exp;  lines: +51 -51
+intermediate point.
+----------------------------
+revision 1.41
+date: 2008/08/13 21:37:58;  author: hangal;  state: Exp;  lines: +19 -25
+intermediate checkin for backup. build may be broken.
+----------------------------
+revision 1.40
+date: 2008/08/08 18:23:49;  author: hangal;  state: Exp;  lines: +19 -8
+fixed a bug in local var type checking (too strict - added certainty)
+----------------------------
+revision 1.39
+date: 2008/08/01 19:35:25;  author: hangal;  state: Exp;  lines: +2 -2
+renamed watch to Analyze.CVS: ----------------------------------------------------------------------
+----------------------------
+revision 1.38
+date: 2008/08/01 19:30:23;  author: hangal;  state: Exp;  lines: +1 -0
+refactor: created drivers package.
+----------------------------
+revision 1.37
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +12 -5
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.36
+date: 2008/03/30 15:06:59;  author: hangal;  state: Exp;  lines: +68 -4
+fixed some bugs
+----------------------------
+revision 1.35
+date: 2008/03/29 06:58:11;  author: hangal;  state: Exp;  lines: +47 -1
+fixed problem with blindly unifying both directions of compare operation like array compare or icmpeq,etc.
+now introducing a phi unit and adding edges from both sides of compare into phi unit.
+----------------------------
+revision 1.34
+date: 2008/03/20 10:58:31;  author: hangal;  state: Exp;  lines: +13 -8
+some changes for oopsla paper - better reporting, cleaned up some unification rules.
+----------------------------
+revision 1.33
+date: 2007/12/29 16:57:56;  author: hangal;  state: Exp;  lines: +0 -4
+some bug fixes for length_unit and array_of
+----------------------------
+revision 1.32
+date: 2007/12/29 06:02:49;  author: hangal;  state: Exp;  lines: +10 -2
+bug fixes.
+----------------------------
+revision 1.31
+date: 2007/12/24 12:50:09;  author: hangal;  state: Exp;  lines: +61 -27
+fixed support java.lang.Math
+----------------------------
+revision 1.30
+date: 2007/12/23 12:59:58;  author: hangal;  state: Exp;  lines: +2 -2
+bug fixes related to compound constraints.
+----------------------------
+revision 1.29
+date: 2007/12/11 00:23:20;  author: hangal;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.28
+date: 2007/12/02 11:12:33;  author: hangal;  state: Exp;  lines: +5 -2
+fixed a bug in meet operator not flowing in both directions.
+----------------------------
+revision 1.27
+date: 2007/11/27 13:16:01;  author: hangal;  state: Exp;  lines: +10 -1
+fixed bug in private method calls
+----------------------------
+revision 1.26
+date: 2007/11/25 12:04:23;  author: hangal;  state: Exp;  lines: +6 -8
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.25
+date: 2007/11/21 20:43:29;  author: hangal;  state: Exp;  lines: +22 -5
+fixed one problem with phi nodes and long/doubles at meet operators.
+----------------------------
+revision 1.24
+date: 2007/11/20 14:13:24;  author: hangal;  state: Exp;  lines: +47 -19
+added field resolution.
+minor fixes for a zero error.
+----------------------------
+revision 1.23
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +5 -0
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.22
+date: 2007/11/01 03:27:23;  author: hangal;  state: Exp;  lines: +2 -2
+added units for fields which are never referenced.
+----------------------------
+revision 1.21
+date: 2007/10/29 03:50:55;  author: hangal;  state: Exp;  lines: +1 -1
+bug fixes for hashcode/equals of local var unit. small fix in multianewarray.
+----------------------------
+revision 1.20
+date: 2007/10/26 17:23:01;  author: hangal;  state: Exp;  lines: +12 -14
+some cleanups of logging.
+----------------------------
+revision 1.19
+date: 2007/10/25 23:48:30;  author: hangal;  state: Exp;  lines: +4 -3
+general updates
+----------------------------
+revision 1.18
+date: 2007/10/25 11:31:49;  author: hangal;  state: Exp;  lines: +3 -2
+re-engineered OO impl.
+----------------------------
+revision 1.17
+date: 2007/10/24 00:03:37;  author: hangal;  state: Exp;  lines: +0 -2
+cleaned up logging.
+----------------------------
+revision 1.16
+date: 2007/10/23 23:11:34;  author: hangal;  state: Exp;  lines: +7 -1
+some fixes.
+----------------------------
+revision 1.15
+date: 2007/10/23 18:40:12;  author: hangal;  state: Exp;  lines: +8 -4
+initial version of OO features.
+----------------------------
+revision 1.14
+date: 2006/11/11 09:27:17;  author: hangal;  state: Exp;  lines: +4 -0
+fixed bug in longs/doubles.
+----------------------------
+revision 1.13
+date: 2006/11/06 07:12:33;  author: hangal;  state: Exp;  lines: +13 -0
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2006/11/06 02:50:56;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2006/11/06 02:35:17;  author: hangal;  state: Exp;  lines: +4 -0
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2006/11/05 23:40:19;  author: hangal;  state: Exp;  lines: +126 -96
+implemented methodresolver
+----------------------------
+revision 1.9
+date: 2006/11/04 05:51:21;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2006/10/19 20:39:09;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2006/10/19 03:27:42;  author: chaitanya;  state: Exp;  lines: +6 -3
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2006/10/18 19:00:59;  author: chaitanya;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/10/18 18:31:06;  author: hangal;  state: Exp;  lines: +3 -0
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/10/16 03:45:36;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/14 02:12:32;  author: hangal;  state: Exp;  lines: +5 -2
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/08 04:45:55;  author: hangal;  state: Exp;  lines: +0 -7
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/util.java,v
+Working file: util.java
+head: 1.5
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.5
+	OOPSLA: 1.4
+	oopsla: 1.5
+	OCT14: 1.2
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 6;	selected revisions: 6
+description:
+----------------------------
+revision 1.5
+date: 2008/03/29 06:58:11;  author: hangal;  state: Exp;  lines: +5 -0
+fixed problem with blindly unifying both directions of compare operation like array compare or icmpeq,etc.
+now introducing a phi unit and adding edges from both sides of compare into phi unit.
+----------------------------
+revision 1.4
+date: 2007/12/23 12:59:58;  author: hangal;  state: Exp;  lines: +13 -0
+bug fixes related to compound constraints.
+----------------------------
+revision 1.3
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +27 -0
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.2
+date: 2006/11/02 03:27:59;  author: hangal;  state: Exp;  lines: +19 -2
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/Attic/watch.java,v
+Working file: watch.java
+head: 1.34
+branch:
+locks: strict
+access list:
+symbolic names:
+	OOPSLA: 1.28
+	oopsla: 1.29
+	OCT14: 1.14
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 35;	selected revisions: 35
+description:
+----------------------------
+revision 1.34
+date: 2008/08/01 19:30:23;  author: hangal;  state: dead;  lines: +0 -0
+refactor: created drivers package.
+----------------------------
+revision 1.33
+date: 2008/08/01 18:40:35;  author: hangal;  state: Exp;  lines: +1 -0
+moved a couple of classes.
+----------------------------
+revision 1.32
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;  lines: +3 -1
+moved files to packages rd and diff
+----------------------------
+revision 1.31
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +2 -8
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.30
+date: 2008/03/30 16:22:56;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.29
+date: 2008/03/29 06:58:11;  author: hangal;  state: Exp;  lines: +7 -1
+fixed problem with blindly unifying both directions of compare operation like array compare or icmpeq,etc.
+now introducing a phi unit and adding edges from both sides of compare into phi unit.
+----------------------------
+revision 1.28
+date: 2008/03/20 10:58:31;  author: hangal;  state: Exp;  lines: +15 -2
+some changes for oopsla paper - better reporting, cleaned up some unification rules.
+----------------------------
+revision 1.27
+date: 2007/12/29 16:57:56;  author: hangal;  state: Exp;  lines: +1 -1
+some bug fixes for length_unit and array_of
+----------------------------
+revision 1.26
+date: 2007/12/23 12:59:58;  author: hangal;  state: Exp;  lines: +19 -4
+bug fixes related to compound constraints.
+----------------------------
+revision 1.25
+date: 2007/12/02 11:12:33;  author: hangal;  state: Exp;  lines: +1 -1
+fixed a bug in meet operator not flowing in both directions.
+----------------------------
+revision 1.24
+date: 2007/11/25 12:04:23;  author: hangal;  state: Exp;  lines: +3 -0
+added feature to print paths in unit diff records.
+----------------------------
+revision 1.23
+date: 2007/11/21 13:08:02;  author: hangal;  state: Exp;  lines: +35 -21
+resurrected div/mult.
+----------------------------
+revision 1.22
+date: 2007/11/04 06:08:03;  author: hangal;  state: Exp;  lines: +2 -3
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.21
+date: 2007/11/01 03:27:23;  author: hangal;  state: Exp;  lines: +36 -13
+added units for fields which are never referenced.
+----------------------------
+revision 1.20
+date: 2007/10/26 17:23:01;  author: hangal;  state: Exp;  lines: +3 -3
+some cleanups of logging.
+----------------------------
+revision 1.19
+date: 2007/10/25 11:31:49;  author: hangal;  state: Exp;  lines: +2 -1
+re-engineered OO impl.
+----------------------------
+revision 1.18
+date: 2007/10/23 23:11:34;  author: hangal;  state: Exp;  lines: +1 -1
+some fixes.
+----------------------------
+revision 1.17
+date: 2007/10/23 18:40:12;  author: hangal;  state: Exp;  lines: +1 -1
+initial version of OO features.
+----------------------------
+revision 1.16
+date: 2007/10/23 11:47:15;  author: hangal;  state: Exp;  lines: +27 -9
+*** empty log message ***
+----------------------------
+revision 1.15
+date: 2007/10/20 02:16:32;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.14
+date: 2006/11/07 05:03:23;  author: hangal;  state: Exp;  lines: +1 -2
+*** empty log message ***
+----------------------------
+revision 1.13
+date: 2006/11/05 23:40:19;  author: hangal;  state: Exp;  lines: +5 -9
+implemented methodresolver
+----------------------------
+revision 1.12
+date: 2006/11/04 05:55:52;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2006/11/04 05:46:19;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2006/11/02 18:44:01;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2006/10/19 03:27:42;  author: chaitanya;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2006/10/18 19:00:59;  author: chaitanya;  state: Exp;  lines: +0 -2
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2006/10/18 18:31:06;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2006/10/17 02:13:13;  author: hangal;  state: Exp;  lines: +4 -0
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/10/16 21:06:56;  author: hangal;  state: Exp;  lines: +27 -6
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/10/16 03:45:36;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/15 06:02:17;  author: hangal;  state: Exp;  lines: +19 -6
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/08 04:45:55;  author: hangal;  state: Exp;  lines: +0 -7
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/contextsensitive/ContextSensitiveAnalysis.java,v
+Working file: contextsensitive/ContextSensitiveAnalysis.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.3
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2009/05/17 07:08:45;  author: hangal;  state: Exp;  lines: +3 -0
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2009/01/02 21:35:48;  author: hangal;  state: Exp;  lines: +66 -63
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2008/08/27 19:02:22;  author: hangal;  state: Exp;  lines: +1 -1
+minor changes to debug messages.
+----------------------------
+revision 1.1
+date: 2008/08/26 20:29:00;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/contextsensitive/MethodInvoke.java,v
+Working file: contextsensitive/MethodInvoke.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.3
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2009/01/02 21:35:48;  author: hangal;  state: Exp;  lines: +32 -32
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2008/08/19 22:27:31;  author: hangal;  state: Exp;  lines: +10 -8
+intermediate point.
+----------------------------
+revision 1.1
+date: 2008/08/13 21:37:58;  author: hangal;  state: Exp;
+intermediate checkin for backup. build may be broken.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/contextsensitive/MethodSummary.java,v
+Working file: contextsensitive/MethodSummary.java
+head: 1.24
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.24
+keyword substitution: kv
+total revisions: 24;	selected revisions: 24
+description:
+----------------------------
+revision 1.24
+date: 2009/02/14 12:57:20;  author: hangal;  state: Exp;  lines: +2 -3
+*** empty log message ***
+----------------------------
+revision 1.23
+date: 2009/02/11 11:25:49;  author: hangal;  state: Exp;  lines: +124 -55
+fixes for context-sensitive compound units.
+----------------------------
+revision 1.22
+date: 2009/02/09 16:45:01;  author: hangal;  state: Exp;  lines: +45 -8
+*** empty log message ***
+----------------------------
+revision 1.21
+date: 2009/01/05 16:24:55;  author: hangal;  state: Exp;  lines: +51 -16
+*** empty log message ***
+----------------------------
+revision 1.20
+date: 2009/01/02 21:51:38;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.19
+date: 2009/01/02 21:46:33;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.18
+date: 2009/01/02 21:35:48;  author: hangal;  state: Exp;  lines: +35 -16
+*** empty log message ***
+----------------------------
+revision 1.17
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +365 -365
+fixed eclipse warnings
+----------------------------
+revision 1.16
+date: 2008/09/12 19:00:31;  author: hangal;  state: Exp;  lines: +13 -5
+latest version.
+----------------------------
+revision 1.15
+date: 2008/08/28 20:53:26;  author: hangal;  state: Exp;  lines: +1 -1
+fixes to avoid clone units being reported in diff records.
+----------------------------
+revision 1.14
+date: 2008/08/27 20:14:48;  author: hangal;  state: Exp;  lines: +5 -2
+minor fix in method summary
+----------------------------
+revision 1.13
+date: 2008/08/27 19:02:22;  author: hangal;  state: Exp;  lines: +1 -3
+minor changes to debug messages.
+----------------------------
+revision 1.12
+date: 2008/08/27 02:33:47;  author: hangal;  state: Exp;  lines: +2 -2
+minor updates.
+----------------------------
+revision 1.11
+date: 2008/08/26 20:29:00;  author: hangal;  state: Exp;  lines: +25 -8
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +96 -53
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.9
+date: 2008/08/21 02:12:45;  author: hangal;  state: Exp;  lines: +13 -11
+CS1 test passes.
+----------------------------
+revision 1.8
+date: 2008/08/21 01:18:49;  author: hangal;  state: Exp;  lines: +48 -16
+fixed a minor bug in printing.
+----------------------------
+revision 1.7
+date: 2008/08/20 17:18:32;  author: hangal;  state: Exp;  lines: +22 -15
+run without crashing.
+----------------------------
+revision 1.6
+date: 2008/08/20 15:04:00;  author: hangal;  state: Exp;  lines: +45 -19
+minor updates.
+----------------------------
+revision 1.5
+date: 2008/08/20 08:00:11;  author: hangal;  state: Exp;  lines: +46 -6
+compile clean, drivers ready.
+----------------------------
+revision 1.4
+date: 2008/08/20 06:46:27;  author: hangal;  state: Exp;  lines: +42 -44
+compile clean.
+----------------------------
+revision 1.3
+date: 2008/08/19 22:27:31;  author: hangal;  state: Exp;  lines: +84 -120
+intermediate point.
+----------------------------
+revision 1.2
+date: 2008/08/19 14:06:22;  author: hangal;  state: Exp;  lines: +97 -66
+minor update.
+
+VS: ----------------------------------------------------------------------
+----------------------------
+revision 1.1
+date: 2008/08/13 21:37:58;  author: hangal;  state: Exp;
+intermediate checkin for backup. build may be broken.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/dataflow/BasicBlock.java,v
+Working file: dataflow/BasicBlock.java
+head: 1.6
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.6
+	OOPSLA: 1.5
+	oopsla: 1.5
+	OCT14: 1.4
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 7;	selected revisions: 7
+description:
+----------------------------
+revision 1.6
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +0 -1
+fixed eclipse warnings
+----------------------------
+revision 1.5
+date: 2007/12/02 11:12:35;  author: hangal;  state: Exp;  lines: +2 -2
+fixed a bug in meet operator not flowing in both directions.
+----------------------------
+revision 1.4
+date: 2006/10/15 15:18:02;  author: hangal;  state: Exp;  lines: +34 -2
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/15 06:02:18;  author: hangal;  state: Exp;  lines: +4 -0
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/14 02:12:37;  author: hangal;  state: Exp;  lines: +10 -2
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/dataflow/DF_algorithm.java,v
+Working file: dataflow/DF_algorithm.java
+head: 1.12
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.11
+	OOPSLA: 1.9
+	oopsla: 1.9
+	OCT14: 1.6
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 13;	selected revisions: 13
+description:
+----------------------------
+revision 1.12
+date: 2009/06/19 19:54:30;  author: hangal;  state: Exp;  lines: +0 -8
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +1 -1
+fixed eclipse warnings
+----------------------------
+revision 1.10
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +0 -2
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.9
+date: 2007/12/02 11:12:35;  author: hangal;  state: Exp;  lines: +3 -3
+fixed a bug in meet operator not flowing in both directions.
+----------------------------
+revision 1.8
+date: 2007/11/20 14:13:30;  author: hangal;  state: Exp;  lines: +6 -2
+added field resolution.
+minor fixes for a zero error.
+----------------------------
+revision 1.7
+date: 2007/10/26 17:23:03;  author: hangal;  state: Exp;  lines: +2 -2
+some cleanups of logging.
+----------------------------
+revision 1.6
+date: 2006/11/02 03:28:01;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/10/16 03:45:38;  author: hangal;  state: Exp;  lines: +8 -0
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/10/15 15:18:02;  author: hangal;  state: Exp;  lines: +37 -0
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/15 06:02:18;  author: hangal;  state: Exp;  lines: +3 -4
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/14 02:12:37;  author: hangal;  state: Exp;  lines: +52 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/dataflow/DF_state.java,v
+Working file: dataflow/DF_state.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+	OOPSLA: 1.3
+	oopsla: 1.3
+	OCT14: 1.3
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 5;	selected revisions: 5
+description:
+----------------------------
+revision 1.4
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +0 -2
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.3
+date: 2006/10/16 03:45:38;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/15 15:18:02;  author: hangal;  state: Exp;  lines: +5 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/diff/Diff.java,v
+Working file: diff/Diff.java
+head: 1.9
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.9
+keyword substitution: kv
+total revisions: 9;	selected revisions: 9
+description:
+----------------------------
+revision 1.9
+date: 2009/01/02 21:51:47;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2009/01/02 21:45:58;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2009/01/02 21:36:27;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +4 -5
+fixed eclipse warnings
+----------------------------
+revision 1.5
+date: 2008/08/28 20:53:26;  author: hangal;  state: Exp;  lines: +17 -6
+fixes to avoid clone units being reported in diff records.
+----------------------------
+revision 1.4
+date: 2008/08/27 20:37:51;  author: hangal;  state: Exp;  lines: +2 -0
+updates to diff.
+----------------------------
+revision 1.3
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +5 -5
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.2
+date: 2008/08/01 18:40:35;  author: hangal;  state: Exp;  lines: +0 -1
+moved a couple of classes.
+----------------------------
+revision 1.1
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;
+moved files to packages rd and diff
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/diff/DiffRecord.java,v
+Working file: diff/DiffRecord.java
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;
+moved files to packages rd and diff
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/diff/DimensionLessUnitDiffRecord.java,v
+Working file: diff/DimensionLessUnitDiffRecord.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2009/01/02 21:51:47;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2009/01/02 21:45:58;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2008/08/01 18:40:35;  author: hangal;  state: Exp;  lines: +0 -1
+moved a couple of classes.
+----------------------------
+revision 1.1
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;
+moved files to packages rd and diff
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/diff/FormulaDiffRecord.java,v
+Working file: diff/FormulaDiffRecord.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2009/01/02 21:51:47;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2009/01/02 21:45:58;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2008/08/01 18:40:35;  author: hangal;  state: Exp;  lines: +0 -1
+moved a couple of classes.
+----------------------------
+revision 1.1
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;
+moved files to packages rd and diff
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/diff/UnitDiffRecord.java,v
+Working file: diff/UnitDiffRecord.java
+head: 1.6
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.6
+keyword substitution: kv
+total revisions: 6;	selected revisions: 6
+description:
+----------------------------
+revision 1.6
+date: 2009/01/02 21:51:47;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2009/01/02 21:45:58;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +5 -5
+fixed eclipse warnings
+----------------------------
+revision 1.3
+date: 2008/08/29 06:52:16;  author: hangal;  state: Exp;  lines: +36 -14
+detecting and printing as important diff records which merge fields.
+----------------------------
+revision 1.2
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +1 -1
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.1
+date: 2008/08/01 18:40:35;  author: hangal;  state: Exp;
+moved a couple of classes.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/drivers/Analyze.java,v
+Working file: drivers/Analyze.java
+head: 1.18
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.18
+keyword substitution: kv
+total revisions: 18;	selected revisions: 18
+description:
+----------------------------
+revision 1.18
+date: 2009/02/09 16:45:02;  author: hangal;  state: Exp;  lines: +15 -6
+*** empty log message ***
+----------------------------
+revision 1.17
+date: 2009/01/02 21:51:59;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.16
+date: 2009/01/02 21:45:35;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.15
+date: 2008/12/29 22:00:34;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.14
+date: 2008/12/28 16:52:56;  author: hangal;  state: Exp;  lines: +13 -10
+renamed name selector to name filter.
+----------------------------
+revision 1.13
+date: 2008/12/24 22:35:18;  author: hangal;  state: Exp;  lines: +23 -8
+some progress with user friendly names
+----------------------------
+revision 1.12
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +2 -2
+fixed eclipse warnings
+----------------------------
+revision 1.11
+date: 2008/10/16 03:18:22;  author: hangal;  state: Exp;  lines: +1 -1
+minor typo
+----------------------------
+revision 1.10
+date: 2008/10/16 03:18:00;  author: hangal;  state: Exp;  lines: +5 -1
+added an option for -Dunifi.prefuse.filename
+----------------------------
+revision 1.9
+date: 2008/10/13 10:59:21;  author: hangal;  state: Exp;  lines: +2 -1
+added prefuse support
+----------------------------
+revision 1.8
+date: 2008/09/12 19:00:31;  author: hangal;  state: Exp;  lines: +7 -5
+latest version.
+----------------------------
+revision 1.7
+date: 2008/08/28 20:53:26;  author: hangal;  state: Exp;  lines: +2 -2
+fixes to avoid clone units being reported in diff records.
+----------------------------
+revision 1.6
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +5 -6
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.5
+date: 2008/08/21 02:12:45;  author: hangal;  state: Exp;  lines: +6 -0
+CS1 test passes.
+----------------------------
+revision 1.4
+date: 2008/08/20 08:05:55;  author: hangal;  state: Exp;  lines: +7 -0
+minor fixes.
+----------------------------
+revision 1.3
+date: 2008/08/20 08:00:11;  author: hangal;  state: Exp;  lines: +32 -22
+compile clean, drivers ready.
+----------------------------
+revision 1.2
+date: 2008/08/13 21:37:58;  author: hangal;  state: Exp;  lines: +3 -0
+intermediate checkin for backup. build may be broken.
+----------------------------
+revision 1.1
+date: 2008/08/01 19:32:24;  author: hangal;  state: Exp;
+refactor: renamed watch to Analyze.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/drivers/NameFilter.java,v
+Working file: drivers/NameFilter.java
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2008/12/28 14:58:25;  author: hangal;  state: Exp;
+changed name to namefilter from nameselector
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/drivers/Attic/NameSelector.java,v
+Working file: drivers/NameSelector.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2009/01/02 21:36:40;  author: hangal;  state: dead;  lines: +0 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2008/08/01 19:30:23;  author: hangal;  state: Exp;
+refactor: created drivers package.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/drivers/Query.java,v
+Working file: drivers/Query.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.2
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2008/12/19 22:33:41;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2008/08/01 19:30:23;  author: hangal;  state: Exp;
+refactor: created drivers package.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/drivers/Show.java,v
+Working file: drivers/Show.java
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2008/08/01 19:30:23;  author: hangal;  state: Exp;
+refactor: created drivers package.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/drivers/Attic/watch.java,v
+Working file: drivers/watch.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2008/08/01 19:32:24;  author: hangal;  state: dead;  lines: +0 -0
+refactor: renamed watch to Analyze.
+----------------------------
+revision 1.1
+date: 2008/08/01 19:30:23;  author: hangal;  state: Exp;
+refactor: created drivers package.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/graph/Attic/Graph.java,v
+Working file: graph/Graph.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2008/08/01 19:02:54;  author: hangal;  state: dead;  lines: +0 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2008/08/01 18:43:33;  author: hangal;  state: Exp;
+created graph package.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/graph/Attic/Node.java,v
+Working file: graph/Node.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2008/08/01 19:02:54;  author: hangal;  state: dead;  lines: +0 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2008/08/01 18:43:33;  author: hangal;  state: Exp;
+created graph package.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/gui/MyJTable.java,v
+Working file: gui/MyJTable.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.2
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2008/12/24 22:35:18;  author: hangal;  state: Exp;  lines: +9 -7
+some progress with user friendly names
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/gui/Attic/Show.java,v
+Working file: gui/Show.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2008/08/01 19:30:23;  author: hangal;  state: dead;  lines: +0 -0
+refactor: created drivers package.
+----------------------------
+revision 1.2
+date: 2008/08/01 18:59:50;  author: hangal;  state: Exp;  lines: +1 -1
+refactor only.
+----------------------------
+revision 1.1
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;
+moved files to packages rd and diff
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/gui/TableMap.java,v
+Working file: gui/TableMap.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/gui/TableSorter.java,v
+Working file: gui/TableSorter.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.2
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +1 -1
+fixed eclipse warnings
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/gui/TextAreaTableCellRenderer.java,v
+Working file: gui/TextAreaTableCellRenderer.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.2
+	OOPSLA: 1.2
+	oopsla: 1.2
+	OCT14: 1.2
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2006/11/10 04:28:06;  author: hangal;  state: Exp;  lines: +1 -4
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/gui/ToolTipTableCellRenderer.java,v
+Working file: gui/ToolTipTableCellRenderer.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.2
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2008/12/19 23:49:06;  author: hangal;  state: Exp;  lines: +5 -1
+fixed GUI problem when there is no where information for a unif event.
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/gui/gui.java,v
+Working file: gui/gui.java
+head: 1.12
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.12
+	OOPSLA: 1.5
+	oopsla: 1.5
+	OCT14: 1.2
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 13;	selected revisions: 13
+description:
+----------------------------
+revision 1.12
+date: 2009/01/02 21:53:14;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2009/01/02 21:45:19;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2008/12/29 21:56:45;  author: hangal;  state: Exp;  lines: +2 -2
+minor
+----------------------------
+revision 1.9
+date: 2008/12/24 22:35:18;  author: hangal;  state: Exp;  lines: +2 -2
+some progress with user friendly names
+----------------------------
+revision 1.8
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +3 -3
+fixed eclipse warnings
+----------------------------
+revision 1.7
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +2 -2
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.6
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -2
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.5
+date: 2008/03/15 23:00:36;  author: hangal;  state: Exp;  lines: +0 -4
+removed minor warning.
+----------------------------
+revision 1.4
+date: 2007/11/04 06:08:06;  author: hangal;  state: Exp;  lines: +2 -3
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.3
+date: 2007/10/23 23:11:36;  author: hangal;  state: Exp;  lines: +2 -1
+some fixes.
+----------------------------
+revision 1.2
+date: 2006/11/10 21:32:50;  author: hangal;  state: Exp;  lines: +31 -2
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/BatchFileTokenMarker.java,v
+Working file: jedit/BatchFileTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/CCTokenMarker.java,v
+Working file: jedit/CCTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/CTokenMarker.java,v
+Working file: jedit/CTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/DefaultInputHandler.java,v
+Working file: jedit/DefaultInputHandler.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/EiffelTokenMarker.java,v
+Working file: jedit/EiffelTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/HTMLTokenMarker.java,v
+Working file: jedit/HTMLTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/IDLTokenMarker.java,v
+Working file: jedit/IDLTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/InputHandler.java,v
+Working file: jedit/InputHandler.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/JEditTextArea.java,v
+Working file: jedit/JEditTextArea.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/JavaScriptTokenMarker.java,v
+Working file: jedit/JavaScriptTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/JavaTokenMarker.java,v
+Working file: jedit/JavaTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/KeywordMap.java,v
+Working file: jedit/KeywordMap.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/MakefileTokenMarker.java,v
+Working file: jedit/MakefileTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/PHPTokenMarker.java,v
+Working file: jedit/PHPTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/PatchTokenMarker.java,v
+Working file: jedit/PatchTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/PerlTokenMarker.java,v
+Working file: jedit/PerlTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/PropsTokenMarker.java,v
+Working file: jedit/PropsTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/PythonTokenMarker.java,v
+Working file: jedit/PythonTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/SQLTokenMarker.java,v
+Working file: jedit/SQLTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/ShellScriptTokenMarker.java,v
+Working file: jedit/ShellScriptTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/SyntaxDocument.java,v
+Working file: jedit/SyntaxDocument.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/SyntaxStyle.java,v
+Working file: jedit/SyntaxStyle.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/SyntaxUtilities.java,v
+Working file: jedit/SyntaxUtilities.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/TSQLTokenMarker.java,v
+Working file: jedit/TSQLTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/TeXTokenMarker.java,v
+Working file: jedit/TeXTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/TextAreaDefaults.java,v
+Working file: jedit/TextAreaDefaults.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/TextAreaPainter.java,v
+Working file: jedit/TextAreaPainter.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/TextUtilities.java,v
+Working file: jedit/TextUtilities.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/Token.java,v
+Working file: jedit/Token.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/TokenMarker.java,v
+Working file: jedit/TokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/jedit/XMLTokenMarker.java,v
+Working file: jedit/XMLTokenMarker.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:35;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/oo/FieldResolver.java,v
+Working file: oo/FieldResolver.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.3
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2009/02/11 11:25:49;  author: hangal;  state: Exp;  lines: +3 -1
+fixes for context-sensitive compound units.
+----------------------------
+revision 1.2
+date: 2008/12/30 01:44:10;  author: hangal;  state: Exp;  lines: +1 -1
+updated logger names
+----------------------------
+revision 1.1
+date: 2008/12/29 21:57:03;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/oo/MethodResolver.java,v
+Working file: oo/MethodResolver.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.3
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2009/02/11 11:25:49;  author: hangal;  state: Exp;  lines: +3 -0
+fixes for context-sensitive compound units.
+----------------------------
+revision 1.2
+date: 2008/12/30 01:44:10;  author: hangal;  state: Exp;  lines: +4 -3
+updated logger names
+----------------------------
+revision 1.1
+date: 2008/12/29 21:57:13;  author: hangal;  state: Exp;
+*** empty log message ***
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/rd/Def.java,v
+Working file: rd/Def.java
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;
+moved files to packages rd and diff
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/rd/LogicalLVMap.java,v
+Working file: rd/LogicalLVMap.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.3
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +10 -10
+fixed eclipse warnings
+----------------------------
+revision 1.2
+date: 2008/08/01 18:59:51;  author: hangal;  state: Exp;  lines: +1 -1
+refactor only.
+----------------------------
+revision 1.1
+date: 2008/08/01 18:40:35;  author: hangal;  state: Exp;
+moved a couple of classes.
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/rd/RDBasicBlock.java,v
+Working file: rd/RDBasicBlock.java
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;
+moved files to packages rd and diff
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/rd/RD_DF_algorithm.java,v
+Working file: rd/RD_DF_algorithm.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +7 -7
+fixed eclipse warnings
+----------------------------
+revision 1.3
+date: 2008/08/08 18:23:49;  author: hangal;  state: Exp;  lines: +2 -2
+fixed a bug in local var type checking (too strict - added certainty)
+----------------------------
+revision 1.2
+date: 2008/08/01 18:40:35;  author: hangal;  state: Exp;  lines: +0 -1
+moved a couple of classes.
+----------------------------
+revision 1.1
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;
+moved files to packages rd and diff
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/rd/RD_state.java,v
+Working file: rd/RD_state.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.2
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +1 -1
+fixed eclipse warnings
+----------------------------
+revision 1.1
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;
+moved files to packages rd and diff
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/rd/Use.java,v
+Working file: rd/Use.java
+head: 1.1
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+----------------------------
+revision 1.1
+date: 2008/08/01 05:18:31;  author: hangal;  state: Exp;
+moved files to packages rd and diff
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/solver/Constraint.java,v
+Working file: solver/Constraint.java
+head: 1.10
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.10
+	OOPSLA: 1.8
+	oopsla: 1.8
+	OCT14: 1.7
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 11;	selected revisions: 11
+description:
+----------------------------
+revision 1.10
+date: 2009/01/02 21:52:39;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.8
+date: 2007/11/21 20:43:37;  author: hangal;  state: Exp;  lines: +1 -1
+improved printing
+----------------------------
+revision 1.7
+date: 2006/11/10 21:32:51;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2006/11/10 04:28:07;  author: hangal;  state: Exp;  lines: +0 -3
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/11/07 05:03:25;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/11/05 23:40:20;  author: hangal;  state: Exp;  lines: +1 -1
+implemented methodresolver
+----------------------------
+revision 1.3
+date: 2006/11/02 03:28:02;  author: hangal;  state: Exp;  lines: +24 -3
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/19 20:39:11;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/solver/ConstraintSet.java,v
+Working file: solver/ConstraintSet.java
+head: 1.21
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.21
+	OOPSLA: 1.16
+	oopsla: 1.16
+	OCT14: 1.10
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 22;	selected revisions: 22
+description:
+----------------------------
+revision 1.21
+date: 2009/02/14 19:12:44;  author: hangal;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.20
+date: 2009/02/14 12:57:20;  author: hangal;  state: Exp;  lines: +15 -2
+*** empty log message ***
+----------------------------
+revision 1.19
+date: 2009/01/02 21:52:39;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.18
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +5 -5
+fixed eclipse warnings
+----------------------------
+revision 1.17
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +2 -3
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.16
+date: 2007/12/29 06:02:51;  author: hangal;  state: Exp;  lines: +11 -1
+bug fixes.
+----------------------------
+revision 1.15
+date: 2007/12/24 12:50:11;  author: hangal;  state: Exp;  lines: +1 -1
+fixed support java.lang.Math
+----------------------------
+revision 1.14
+date: 2007/12/23 13:00:00;  author: hangal;  state: Exp;  lines: +135 -60
+bug fixes related to compound constraints.
+----------------------------
+revision 1.13
+date: 2007/12/04 11:10:25;  author: hangal;  state: Exp;  lines: +12 -1
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2007/11/21 13:08:07;  author: hangal;  state: Exp;  lines: +31 -25
+resurrected div/mult.
+----------------------------
+revision 1.11
+date: 2007/11/04 06:08:07;  author: hangal;  state: Exp;  lines: +2 -2
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.10
+date: 2006/11/10 21:32:51;  author: hangal;  state: Exp;  lines: +47 -51
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2006/11/10 04:28:07;  author: hangal;  state: Exp;  lines: +17 -27
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2006/11/10 03:31:24;  author: hangal;  state: Exp;  lines: +29 -8
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2006/11/09 22:10:20;  author: hangal;  state: Exp;  lines: +68 -47
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2006/11/08 21:19:52;  author: hangal;  state: Exp;  lines: +21 -7
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/11/07 05:03:25;  author: hangal;  state: Exp;  lines: +48 -1
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/11/06 07:12:36;  author: hangal;  state: Exp;  lines: +9 -2
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/11/05 23:40:20;  author: hangal;  state: Exp;  lines: +58 -22
+implemented methodresolver
+----------------------------
+revision 1.2
+date: 2006/11/02 03:28:02;  author: hangal;  state: Exp;  lines: +54 -41
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/solver/ConstraintSolver.java,v
+Working file: solver/ConstraintSolver.java
+head: 1.18
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.18
+	OOPSLA: 1.14
+	oopsla: 1.14
+	OCT14: 1.12
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 19;	selected revisions: 19
+description:
+----------------------------
+revision 1.18
+date: 2009/02/14 19:12:44;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.17
+date: 2009/02/14 12:57:20;  author: hangal;  state: Exp;  lines: +7 -2
+*** empty log message ***
+----------------------------
+revision 1.16
+date: 2009/01/02 21:52:39;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.15
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.14
+date: 2007/12/23 13:00:00;  author: hangal;  state: Exp;  lines: +2 -12
+bug fixes related to compound constraints.
+----------------------------
+revision 1.13
+date: 2007/12/04 11:10:25;  author: hangal;  state: Exp;  lines: +1 -2
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2006/11/11 19:28:54;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2006/11/10 21:32:51;  author: hangal;  state: Exp;  lines: +3 -8
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2006/11/10 04:28:07;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2006/11/10 03:31:24;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2006/11/07 05:03:25;  author: hangal;  state: Exp;  lines: +4 -4
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2006/11/05 23:40:20;  author: hangal;  state: Exp;  lines: +10 -7
+implemented methodresolver
+----------------------------
+revision 1.6
+date: 2006/11/04 05:46:20;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/11/02 03:28:02;  author: hangal;  state: Exp;  lines: +16 -13
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/10/19 21:50:45;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/19 20:39:11;  author: hangal;  state: Exp;  lines: +4 -2
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/19 03:27:43;  author: chaitanya;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/solver/Dimension.java,v
+Working file: solver/Dimension.java
+head: 1.7
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.7
+	OOPSLA: 1.6
+	oopsla: 1.6
+	OCT14: 1.5
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 8;	selected revisions: 8
+description:
+----------------------------
+revision 1.7
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +2 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.6
+date: 2007/11/21 20:43:37;  author: hangal;  state: Exp;  lines: +5 -0
+improved printing
+----------------------------
+revision 1.5
+date: 2006/11/10 21:32:51;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2006/11/09 22:10:20;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/11/02 03:28:02;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/31 19:21:45;  author: hangal;  state: Exp;  lines: +4 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/solver/Dimensions.java,v
+Working file: solver/Dimensions.java
+head: 1.18
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.18
+	OOPSLA: 1.13
+	oopsla: 1.13
+	OCT14: 1.7
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 19;	selected revisions: 19
+description:
+----------------------------
+revision 1.18
+date: 2009/02/14 19:12:44;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.17
+date: 2009/02/14 12:57:20;  author: hangal;  state: Exp;  lines: +8 -5
+*** empty log message ***
+----------------------------
+revision 1.16
+date: 2009/01/02 21:52:39;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.15
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +2 -2
+fixed eclipse warnings
+----------------------------
+revision 1.14
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +3 -1
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.13
+date: 2007/12/29 06:02:51;  author: hangal;  state: Exp;  lines: +15 -12
+bug fixes.
+----------------------------
+revision 1.12
+date: 2007/12/24 12:50:11;  author: hangal;  state: Exp;  lines: +12 -4
+fixed support java.lang.Math
+----------------------------
+revision 1.11
+date: 2007/12/23 13:00:00;  author: hangal;  state: Exp;  lines: +4 -2
+bug fixes related to compound constraints.
+----------------------------
+revision 1.10
+date: 2007/12/04 11:10:25;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2007/11/21 20:43:37;  author: hangal;  state: Exp;  lines: +8 -0
+improved printing
+----------------------------
+revision 1.8
+date: 2007/11/04 06:08:07;  author: hangal;  state: Exp;  lines: +1 -1
+fixed some linkhashmap/set's.
+solved a hairy bug with openParen's where a unification
+was getting lost at the meet of a poly method retval and a real unit.
+----------------------------
+revision 1.7
+date: 2006/11/10 21:32:51;  author: hangal;  state: Exp;  lines: +7 -2
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2006/11/10 04:28:07;  author: hangal;  state: Exp;  lines: +4 -21
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2006/11/05 23:40:20;  author: hangal;  state: Exp;  lines: +8 -10
+implemented methodresolver
+----------------------------
+revision 1.4
+date: 2006/11/02 03:28:02;  author: hangal;  state: Exp;  lines: +74 -34
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/10/31 19:21:45;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/10/19 21:50:45;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/solver/Factor.java,v
+Working file: solver/Factor.java
+head: 1.1
+branch: 1.1.1
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.1.1.1
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/solver/Fraction.java,v
+Working file: solver/Fraction.java
+head: 1.6
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.6
+	OOPSLA: 1.5
+	oopsla: 1.5
+	OCT14: 1.4
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 7;	selected revisions: 7
+description:
+----------------------------
+revision 1.6
+date: 2009/01/05 16:25:05;  author: hangal;  state: Exp;  lines: +10 -0
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2007/12/24 12:50:11;  author: hangal;  state: Exp;  lines: +3 -0
+fixed support java.lang.Math
+----------------------------
+revision 1.4
+date: 2006/11/11 19:28:54;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2006/11/11 09:27:19;  author: hangal;  state: Exp;  lines: +9 -0
+fixed bug in longs/doubles.
+----------------------------
+revision 1.2
+date: 2006/11/10 21:32:51;  author: hangal;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/solver/MUnit.java,v
+Working file: solver/MUnit.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.2
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/solver/StableComparator.java,v
+Working file: solver/StableComparator.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.2
+keyword substitution: kv
+total revisions: 2;	selected revisions: 2
+description:
+----------------------------
+revision 1.2
+date: 2009/01/02 21:52:39;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2008/08/01 19:24:00;  author: hangal;  state: Exp;
+refactor: StableComparator
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/solver/main.java,v
+Working file: solver/main.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+	OOPSLA: 1.3
+	oopsla: 1.3
+	OCT14: 1.2
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 5;	selected revisions: 5
+description:
+----------------------------
+revision 1.4
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;  lines: +1 -0
+ moved units to separate package; cleaned up eclipse warnings
+----------------------------
+revision 1.3
+date: 2008/03/15 22:44:15;  author: hangal;  state: Exp;  lines: +2 -0
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2006/11/05 23:40:20;  author: hangal;  state: Exp;  lines: +1 -1
+implemented methodresolver
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/solver/util.java,v
+Working file: solver/util.java
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.2
+	OOPSLA: 1.1.1.1
+	oopsla: 1.1.1.1
+	OCT14: 1.1.1.1
+	start: 1.1.1.1
+	vendor: 1.1.1
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.2
+date: 2009/02/14 12:57:20;  author: hangal;  state: Exp;  lines: +7 -0
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 2006/10/08 04:28:34;  author: hangal;  state: Exp;  lines: +0 -0
+unifi starting sources
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/AllocUnit.java,v
+Working file: units/AllocUnit.java
+head: 1.5
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.5
+keyword substitution: kv
+total revisions: 5;	selected revisions: 5
+description:
+----------------------------
+revision 1.5
+date: 2009/01/02 21:52:12;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +1 -1
+fixed eclipse warnings
+----------------------------
+revision 1.3
+date: 2008/08/26 20:31:06;  author: hangal;  state: Exp;  lines: +1 -0
+renamed has_array_of in Unit.
+----------------------------
+revision 1.2
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +3 -3
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/ArrayLengthUnit.java,v
+Working file: units/ArrayLengthUnit.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2009/01/02 21:52:12;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2008/08/26 20:31:06;  author: hangal;  state: Exp;  lines: +1 -1
+renamed has_array_of in Unit.
+----------------------------
+revision 1.2
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +7 -7
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/CheckcastUnit.java,v
+Working file: units/CheckcastUnit.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.3
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2009/01/02 21:52:12;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2009/01/02 21:37:31;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/ConstantUnit.java,v
+Working file: units/ConstantUnit.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2009/01/02 21:52:12;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +2 -2
+fixed eclipse warnings
+----------------------------
+revision 1.2
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +3 -3
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:16;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/ElementUnit.java,v
+Working file: units/ElementUnit.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2009/01/02 21:52:12;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2008/09/12 19:00:31;  author: hangal;  state: Exp;  lines: +6 -1
+latest version.
+----------------------------
+revision 1.2
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +2 -2
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:17;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/FieldUnit.java,v
+Working file: units/FieldUnit.java
+head: 1.6
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.6
+keyword substitution: kv
+total revisions: 6;	selected revisions: 6
+description:
+----------------------------
+revision 1.6
+date: 2009/01/02 21:52:12;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2008/12/24 22:35:18;  author: hangal;  state: Exp;  lines: +10 -0
+some progress with user friendly names
+----------------------------
+revision 1.4
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +2 -2
+fixed eclipse warnings
+----------------------------
+revision 1.3
+date: 2008/08/26 20:31:06;  author: hangal;  state: Exp;  lines: +1 -0
+renamed has_array_of in Unit.
+----------------------------
+revision 1.2
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +6 -6
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:17;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/LocalVarUnit.java,v
+Working file: units/LocalVarUnit.java
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.4
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+----------------------------
+revision 1.4
+date: 2009/01/02 21:52:12;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +1 -1
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.2
+date: 2008/08/08 18:23:49;  author: hangal;  state: Exp;  lines: +8 -3
+fixed a bug in local var type checking (too strict - added certainty)
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:17;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/MethodParamUnit.java,v
+Working file: units/MethodParamUnit.java
+head: 1.9
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.9
+keyword substitution: kv
+total revisions: 9;	selected revisions: 9
+description:
+----------------------------
+revision 1.9
+date: 2009/01/02 21:52:12;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2008/09/12 19:00:31;  author: hangal;  state: Exp;  lines: +1 -0
+latest version.
+----------------------------
+revision 1.7
+date: 2008/08/28 20:53:26;  author: hangal;  state: Exp;  lines: +2 -0
+fixes to avoid clone units being reported in diff records.
+----------------------------
+revision 1.6
+date: 2008/08/27 20:37:51;  author: hangal;  state: Exp;  lines: +2 -0
+updates to diff.
+----------------------------
+revision 1.5
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +6 -6
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.4
+date: 2008/08/21 02:12:45;  author: hangal;  state: Exp;  lines: +4 -2
+CS1 test passes.
+----------------------------
+revision 1.3
+date: 2008/08/21 01:18:49;  author: hangal;  state: Exp;  lines: +5 -0
+fixed a minor bug in printing.
+----------------------------
+revision 1.2
+date: 2008/08/19 22:27:31;  author: hangal;  state: Exp;  lines: +1 -1
+intermediate point.
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:17;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/MultUnit.java,v
+Working file: units/MultUnit.java
+head: 1.5
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.5
+keyword substitution: kv
+total revisions: 5;	selected revisions: 5
+description:
+----------------------------
+revision 1.5
+date: 2009/02/09 16:45:02;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +2 -2
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.3
+date: 2008/08/01 19:35:25;  author: hangal;  state: Exp;  lines: +2 -2
+renamed watch to Analyze.CVS: ----------------------------------------------------------------------
+----------------------------
+revision 1.2
+date: 2008/08/01 19:30:23;  author: hangal;  state: Exp;  lines: +1 -1
+refactor: created drivers package.
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:17;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/PhiUnit.java,v
+Working file: units/PhiUnit.java
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.3
+keyword substitution: kv
+total revisions: 3;	selected revisions: 3
+description:
+----------------------------
+revision 1.3
+date: 2009/01/02 21:52:12;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +2 -2
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:17;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/ReturnValueUnit.java,v
+Working file: units/ReturnValueUnit.java
+head: 1.9
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.9
+keyword substitution: kv
+total revisions: 9;	selected revisions: 9
+description:
+----------------------------
+revision 1.9
+date: 2009/02/14 12:57:20;  author: hangal;  state: Exp;  lines: +6 -3
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2009/01/02 21:52:12;  author: hangal;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2008/09/12 19:00:31;  author: hangal;  state: Exp;  lines: +1 -0
+latest version.
+----------------------------
+revision 1.6
+date: 2008/08/27 20:37:51;  author: hangal;  state: Exp;  lines: +2 -0
+updates to diff.
+----------------------------
+revision 1.5
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +4 -4
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.4
+date: 2008/08/21 02:12:45;  author: hangal;  state: Exp;  lines: +4 -3
+CS1 test passes.
+----------------------------
+revision 1.3
+date: 2008/08/21 01:18:49;  author: hangal;  state: Exp;  lines: +3 -1
+fixed a minor bug in printing.
+----------------------------
+revision 1.2
+date: 2008/08/19 22:27:31;  author: hangal;  state: Exp;  lines: +1 -1
+intermediate point.
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:17;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
+
+RCS file: /u/hangal/cvsroot/unifi/src/unifi/units/Unit.java,v
+Working file: units/Unit.java
+head: 1.16
+branch:
+locks: strict
+access list:
+symbolic names:
+	ICSE_CAMERA_READY: 1.16
+keyword substitution: kv
+total revisions: 16;	selected revisions: 16
+description:
+----------------------------
+revision 1.16
+date: 2009/02/14 13:06:32;  author: hangal;  state: Exp;  lines: +3 -2
+deprioritized retval and params if they are clone in sort order.
+----------------------------
+revision 1.15
+date: 2009/02/14 10:00:31;  author: hangal;  state: Exp;  lines: +1 -1
+simple bug fix for unification_in_progress that was causing a false assert
+----------------------------
+revision 1.14
+date: 2009/02/09 16:45:02;  author: hangal;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.13
+date: 2009/01/02 21:52:12;  author: hangal;  state: Exp;  lines: +29 -5
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2008/12/24 22:35:18;  author: hangal;  state: Exp;  lines: +8 -0
+some progress with user friendly names
+----------------------------
+revision 1.11
+date: 2008/12/18 12:09:38;  author: hangal;  state: Exp;  lines: +11 -8
+fixed eclipse warnings
+----------------------------
+revision 1.10
+date: 2008/08/27 19:02:22;  author: hangal;  state: Exp;  lines: +13 -6
+minor changes to debug messages.
+----------------------------
+revision 1.9
+date: 2008/08/27 02:33:47;  author: hangal;  state: Exp;  lines: +2 -0
+minor updates.
+----------------------------
+revision 1.8
+date: 2008/08/26 20:31:06;  author: hangal;  state: Exp;  lines: +13 -8
+renamed has_array_of in Unit.
+----------------------------
+revision 1.7
+date: 2008/08/26 17:57:07;  author: hangal;  state: Exp;  lines: +121 -121
+naming conventions in Unit.java and dependencies.
+----------------------------
+revision 1.6
+date: 2008/08/20 17:18:32;  author: hangal;  state: Exp;  lines: +3 -0
+run without crashing.
+----------------------------
+revision 1.5
+date: 2008/08/20 06:46:27;  author: hangal;  state: Exp;  lines: +9 -0
+compile clean.
+----------------------------
+revision 1.4
+date: 2008/08/19 14:06:23;  author: hangal;  state: Exp;  lines: +3 -2
+minor update.
+
+VS: ----------------------------------------------------------------------
+----------------------------
+revision 1.3
+date: 2008/08/13 21:37:58;  author: hangal;  state: Exp;  lines: +16 -8
+intermediate checkin for backup. build may be broken.
+----------------------------
+revision 1.2
+date: 2008/08/08 18:23:49;  author: hangal;  state: Exp;  lines: +10 -1
+fixed a bug in local var type checking (too strict - added certainty)
+----------------------------
+revision 1.1
+date: 2008/07/31 21:51:17;  author: hangal;  state: Exp;
+ moved units to separate package; cleaned up eclipse warnings
+=============================================================================
