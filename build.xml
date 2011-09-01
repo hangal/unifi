@@ -4,11 +4,11 @@
 	<property name="srcDir" location="${basedir}/src/" />
 	<property name="classesDir" location="${basedir}/classes" />
 	<property name="debug" value="Yes" />
-	<property name="classpath" value="${basedir}/ext/bcel-5.2.jar:${basedir}/ext/jgrapht-jdk1.6.jar;${basedir}/ext/gson-1.5.jar"/>
+	<property name="classpath" value="${basedir}/lib/bcel-5.2.jar:${basedir}/lib/jgrapht-jdk1.6.jar;${basedir}/lib/gson-1.5.jar"/>
     </target>
 
         <path id="lib.path">
-                <fileset dir="${basedir}/ext" includes="*.jar" />
+                <fileset dir="${basedir}/lib" includes="*.jar" />
         </path>
 
     <target name="clean" depends="init">
@@ -16,6 +16,7 @@
     </target>
 
     <target name="all" depends="init">
+    <mkdir dir="${classesDir}"/>
 	<javac classpathref="lib.path" srcdir="${srcDir}" destdir="${classesDir}" debug="${debug}"
                excludes="Lib/**"/>
 	<jar jarfile="${classesDir}/unifi.jar" basedir="${classesDir}"
