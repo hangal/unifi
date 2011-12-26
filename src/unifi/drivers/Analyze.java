@@ -260,7 +260,7 @@ private static void print_usage_and_exit()
 					  + "  -w write units file (also: -Dunifi.write)\n"
 					  + "  -gw write golden units file (also: -Dunifi.golden.write)\n"
 					  + "  -gr read golden units file (also: -Dunifi.golden.read)\n"
-					  + "  -dw read diff w.r.t. golden units file (also: -Dunifi.diff.write)\n"
+					  + "  -dw write diff w.r.t. golden units (also: -Dunifi.diff.write)\n"
 					  + "  -c <unifi control file>\n"
 					  + "  -n <unit names file>\n"
 					  + "  -v verbose output\n"
