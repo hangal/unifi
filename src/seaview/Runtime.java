@@ -48,6 +48,14 @@ public class Runtime {
 		return sb;
 	}
 
+	public static StringBuilder log (StringBuilder sb, boolean value, int IPnum)
+	{
+		if (PRINT)
+			System.out.println ("Seaview runtime received v=" + value + " from ipnum " + IPnum + " details = " + IPInfo.lookup(IPnum));
+		sb.append (":::SV" + IPnum + ":::" + value + ":::");
+		logs.add(new Pair<Double, Integer>(value?1.0:0.0, IPnum));
+		return sb;
+	}
 	public static StringBuilder log (StringBuilder sb, float value, int IPnum)
 	{
 		if (PRINT)
