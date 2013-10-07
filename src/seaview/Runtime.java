@@ -154,9 +154,9 @@ public class Runtime {
 	}
 
     public static class AppServletContextListener implements ServletContextListener{
- 
+	
 	@Override
-	public void contextDestroyed(ServletContextEvent arg0) {
+	    public void contextDestroyed(ServletContextEvent arg0) {
 	    try {
 		saveLogs("/Users/viharipiratla/SEAVIEW" + File.separatorChar + "run_logs.js");
 	    } catch (Exception e) {
@@ -164,19 +164,19 @@ public class Runtime {
 	    }
 	    System.out.println("ServletContextListener destroyed");
 	}
- 
+	
 	@Override
-	public void contextInitialized(ServletContextEvent arg0) {
-		System.out.println("ServletContextListener started");	
+	    public void contextInitialized(ServletContextEvent arg0) {
+	    System.out.println("ServletContextListener started");	
 	}
     }
 	
-	public static void main (String args[])
-	{
-		List<Pair<Object, Integer>> list = new ArrayList<Pair<Object, Integer>>();
-		list.add(new Pair<Object,Integer>(new Object(), 10));
-		Type listType = new TypeToken<List<Pair<Object, Integer>>>() {}.getType();
-		new Gson().toJson(list);
-		System.out.println ("done");
-	}
+    public static void main (String args[])
+    {
+	List<Pair<Object, Integer>> list = new ArrayList<Pair<Object, Integer>>();
+	list.add(new Pair<Object,Integer>(new Object(), 10));
+	Type listType = new TypeToken<List<Pair<Object, Integer>>>() {}.getType();
+	new Gson().toJson(list);
+	System.out.println ("done");
+    }
 }
