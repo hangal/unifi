@@ -436,7 +436,7 @@ public class Instrumenter {
 			int size = reps.get(u).size();
 			TMP1 t_rep = new TMP1();
 			t_rep.name = rep_description;
-			t_rep.long_name =  size + " unit" + (size > 1?"s":"") + ", e.g.: " + u.toFullString();
+			//t_rep.long_name =  size + " unit" + (size > 1?"s":"") + ", e.g.: " + u.toFullString();
 			t_rep.is_quant_or_ord = u.unitAttribs.quantOrOrd();
 			t_rep.is_equals_compared = u.unitAttribs.isEqualityChecked();
 			rep_names[u.seaview_rep_id] = t_rep;
@@ -456,8 +456,8 @@ public class Instrumenter {
 		System.out.println (rep_names.length + " rep names, " + unit_names.length + " unit names, " + rep_id_map.size() + " mappings");
 		PrintWriter pw = new PrintWriter (new OutputStreamWriter(new FileOutputStream(filename + ".js"), "UTF-8"));
 		pw.println ("var reps = " + new Gson().toJson(rep_names) + ";");
-		pw.println ("var unit_names = " + new Gson().toJson(unit_names) + ";");
-		pw.println ("var unit_mappings = " + new Gson().toJson(rep_id_map) + ";");
+		//pw.println ("var unit_names = " + new Gson().toJson(unit_names) + ";");
+		//pw.println ("var unit_mappings = " + new Gson().toJson(rep_id_map) + ";");
 		pw.close();
 	}
 	

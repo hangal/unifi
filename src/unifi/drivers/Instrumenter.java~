@@ -341,40 +341,40 @@ public class Instrumenter {
 		        	                ReturnValueUnit rvu = target_munits.get_return_value_unit();
 		        	                if (rvu != null)
 		        	                {
-	        							log.debug ("FLAG cluster at " + ih1 + " RV in method " + method + " num: " + rvu.clusterNum);
-		        	                	InstructionList instrumentedInsns = createInvokeRuntimeInsns(invoke1.getReturnType(cpgen).getSignature(), cpgen, rvu, callSiteNum, (invoke1.produceStack(cpgen) == 2), className, methodName, params_return_sig, lineNum);
-		        	                	il.insert(ih1, instrumentedInsns);
-	        				            InstructionHandle new_ih1 = ih1.getNext();
-	        				            il.delete(ih1);
-	        				            ih1 = new_ih1.getPrev();
+						    log.debug ("FLAG cluster at " + ih1 + " RV in method " + method + " num: " + rvu.clusterNum);
+						    InstructionList instrumentedInsns = createInvokeRuntimeInsns(invoke1.getReturnType(cpgen).getSignature(), cpgen, rvu, callSiteNum, (invoke1.produceStack(cpgen) == 2), className, methodName, params_return_sig, lineNum);
+						    il.insert(ih1, instrumentedInsns);
+						    InstructionHandle new_ih1 = ih1.getNext();
+						    il.delete(ih1);
+						    ih1 = new_ih1.getPrev();
 		        	                }
 	        	                }
         					}
         					else if (prev_insn instanceof LocalVariableInstruction && prev_insn.produceStack(cpgen) > 0) // similarly handle 
         					{
-        						int oPos = originalPos.get(prev_ih);
-        			            int indx = lv_map.pos_to_logical_LV_num (oPos);
-        			            Unit u = current_munits.get_local_var_unit (indx); //get its unit element
-        			            LocalVariableInstruction lv_insn = (LocalVariableInstruction) prev_insn;
-        			            String lv_type_sig = "I";
-        			            if (lv_insn instanceof FLOAD)
-        			            	lv_type_sig = "F";
-        			            else if (lv_insn instanceof DLOAD)
-        			            	lv_type_sig = "D";
-        			            else if (lv_insn instanceof LLOAD)
-        			            	lv_type_sig = "J";
-        			            else if (lv_insn instanceof ALOAD)
-        			            	lv_type_sig = "Ljava/lang/Object;";
-        			            if (u != null)
-        			            {
-	        	                	InstructionList instrumentedInsns = createInvokeRuntimeInsns(lv_type_sig, cpgen, u, callSiteNum, (prev_insn.produceStack(cpgen) == 2), className, methodName, params_return_sig, lineNum);		        	                	
-	        	                	il.insert(ih1, instrumentedInsns);
-	        	                	InstructionHandle new_ih1 = ih1.getNext();
-        				            il.delete(ih1);
-        				            ih1 = new_ih1.getPrev();
-        			            }
+						    int oPos = originalPos.get(prev_ih);
+						    int indx = lv_map.pos_to_logical_LV_num (oPos);
+						    Unit u = current_munits.get_local_var_unit (indx); //get its unit element
+						    LocalVariableInstruction lv_insn = (LocalVariableInstruction) prev_insn;
+						    String lv_type_sig = "I";
+						    if (lv_insn instanceof FLOAD)
+							lv_type_sig = "F";
+						    else if (lv_insn instanceof DLOAD)
+							lv_type_sig = "D";
+						    else if (lv_insn instanceof LLOAD)
+							lv_type_sig = "J";
+						    else if (lv_insn instanceof ALOAD)
+							lv_type_sig = "Ljava/lang/Object;";
+						    if (u != null)
+							{
+							    InstructionList instrumentedInsns = createInvokeRuntimeInsns(lv_type_sig, cpgen, u, callSiteNum, (prev_insn.produceStack(cpgen) == 2), className, methodName, params_return_sig, lineNum);		        	                	
+							    il.insert(ih1, instrumentedInsns);
+							    InstructionHandle new_ih1 = ih1.getNext();
+							    il.delete(ih1);
+							    ih1 = new_ih1.getPrev();
+							}
         					}
-        	            }
+					}
 	        		}
 	        		sbStartIH = null;
 	        		callSiteNum++;
