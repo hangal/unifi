@@ -379,16 +379,12 @@ public class Instrumenter {
 							Pattern p2 = Pattern.compile("^[adfil]load\\[[0-9]*\\]\\([0-9]*\\)\\s+([0-9]*)");
 							Matcher m2 = p2.matcher(instr);
 							int indx = -1;
-							if (m1.find()) {
-							    System.out.println(" ::: "+m1.group(1)+" ::: ");
+							if (m1.find()) 
 							    indx = Integer.parseInt(m1.group(1));
-							}
-							
-							if (m2.find()) {
-							    System.out.println(" ::: "+m2.group(1)+" ::: ");
+						      							
+							if (m2.find()) 			     
 							    indx = Integer.parseInt(m2.group(1));
-							}
-
+						       
 							Unit u = current_munits.get_local_var_unit (indx); //get its unit element
 							LocalVariableInstruction lv_insn = (LocalVariableInstruction) prev_insn;
 							String lv_type_sig = "I";
