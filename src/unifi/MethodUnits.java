@@ -447,12 +447,12 @@ public void unify(MethodUnits other, BCP bcp)
 	 // this should already be a "clean" idx. */
 	public Unit get_local_var_unit (int idx)
 	{
-	    //System.out.println("???????????????? idx = " + idx + " no.of words : " + _n_param_words);
+	    System.out.println("???????????????? idx = " + idx + " no.of words : " + _n_param_words+" local vars length: "+_local_vars.length);
 		
 	    //TODO:Fix the outOfBoundException occuring here
 	    //Temp Fix
-	    if((idx<0)||(idx>=(_local_vars.length+_n_param_words)))
-		return _local_vars[0];
+	    //if((idx<0)||(idx>=(_local_vars.length+_n_param_words)))
+	    //return _local_vars[0];
 	    
 	    if (idx >= _n_param_words) //returning local var's unit element
 		{
