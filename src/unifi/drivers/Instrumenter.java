@@ -372,7 +372,7 @@ public class Instrumenter {
 							  at unifi.drivers.Instrumenter.main(Instrumenter.java:473)
 							  where one expects an idx of 2.
 							*/
-							//int indx = lv_map.pos_to_logical_LV_num (oPos);
+							
 							//instr can be of form aload_n[]() or aload[]() n
 							Pattern p1 = Pattern.compile("^[adfil]load_([0-4]).*");
 							Matcher m1 = p1.matcher(instr);
@@ -384,7 +384,8 @@ public class Instrumenter {
 						      							
 							if (m2.find()) 			     
 							    indx = Integer.parseInt(m2.group(1));
-						       
+					
+							indx = lv_map.pos_to_logical_LV_num (oPos);
 							Unit u = current_munits.get_local_var_unit (indx); //get its unit element
 							LocalVariableInstruction lv_insn = (LocalVariableInstruction) prev_insn;
 							String lv_type_sig = "I";
